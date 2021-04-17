@@ -1,0 +1,2331 @@
+=> loading checkpoint '27'
+=> loaded checkpoint '27' (epoch 28)
+========================================
+Args:Namespace(activation_layer='square', activation_net='relu', batch_size=8, channels_in=3, clas=False, clip_grad_norm=0, crop_size=80, cudnn=True, dataset='lane_detection', end_to_end=True, evaluate=False, flip_on=False, gamma=0.0, gt_dir='/home/ljj/DATASET/ground_truth', image_dir='/home/ljj/DATASET/images', json_file='Labels/Curve_parameters.json', layers=18, learning_rate=0.0001, list=[954, 2789], loss_policy='area', lr_decay=False, lr_decay_iters=30, lr_policy=None, mask_percentage=0.3, mod='erfnet', nclasses=2, nepochs=350, niter=50, niter_decay=400, no_cuda=False, no_dropout=False, no_ortho=False, no_tb=True, norm='batch', num_train=2535, nworkers=8, optimizer='adam', order=2, pool=True, pretrain_epochs=20, pretrained=False, print_freq=500, reg_ls=0, resize=256, resume='27', save_freq=500, save_path='Saved/Mod_erfnet_opt_adam_loss_area_lr_0.0001_batch_8_end2end_True_lanes_2_resize_256_pretrainFalse_clasFalse', split_percentage=0.2, start_epoch=28, test_mode=False, use_cholesky=False, weight_class=1, weight_decay=0, weight_fit=1, weight_funct='none', weight_init='kaiming', weight_seg=30)
+========================================
+Init model: 'erfnet'
+Number of parameters in model ERFNET is 2.063M
+
+ => Start train set for EPOCH 29
+===> Average AREA**2-loss on training set is 0.00019057
+===> Average AREA**2-loss on validation set is 0.00019404
+===> Average exact area on training set is 0.00616689
+===> Average exact area on validation set is 0.00572931
+===> Last best AREA**2-loss was 0.00578077 in epoch 28
+Best model copied
+
+ => Start train set for EPOCH 30
+===> Average AREA**2-loss on training set is 0.00017419
+===> Average AREA**2-loss on validation set is 0.00017760
+===> Average exact area on training set is 0.00596886
+===> Average exact area on validation set is 0.00546485
+===> Last best AREA**2-loss was 0.00572931 in epoch 29
+Best model copied
+
+ => Start train set for EPOCH 31
+===> Average AREA**2-loss on training set is 0.00016483
+===> Average AREA**2-loss on validation set is 0.00016605
+===> Average exact area on training set is 0.00580772
+===> Average exact area on validation set is 0.00521996
+===> Last best AREA**2-loss was 0.00546485 in epoch 30
+Best model copied
+
+ => Start train set for EPOCH 32
+===> Average AREA**2-loss on training set is 0.00016264
+===> Average AREA**2-loss on validation set is 0.00019734
+===> Average exact area on training set is 0.00574261
+===> Average exact area on validation set is 0.00587168
+===> Last best AREA**2-loss was 0.00521996 in epoch 31
+
+ => Start train set for EPOCH 33
+===> Average AREA**2-loss on training set is 0.00014615
+===> Average AREA**2-loss on validation set is 0.00015519
+===> Average exact area on training set is 0.00549363
+===> Average exact area on validation set is 0.00501501
+===> Last best AREA**2-loss was 0.00521996 in epoch 31
+Best model copied
+
+ => Start train set for EPOCH 34
+===> Average AREA**2-loss on training set is 0.00013823
+===> Average AREA**2-loss on validation set is 0.00014273
+===> Average exact area on training set is 0.00534492
+===> Average exact area on validation set is 0.00483065
+===> Last best AREA**2-loss was 0.00501501 in epoch 33
+Best model copied
+
+ => Start train set for EPOCH 35
+===> Average AREA**2-loss on training set is 0.00013328
+===> Average AREA**2-loss on validation set is 0.00013748
+===> Average exact area on training set is 0.00521863
+===> Average exact area on validation set is 0.00467409
+===> Last best AREA**2-loss was 0.00483065 in epoch 34
+Best model copied
+
+ => Start train set for EPOCH 36
+===> Average AREA**2-loss on training set is 0.00012845
+===> Average AREA**2-loss on validation set is 0.00013596
+===> Average exact area on training set is 0.00512995
+===> Average exact area on validation set is 0.00468241
+===> Last best AREA**2-loss was 0.00467409 in epoch 35
+
+ => Start train set for EPOCH 37
+===> Average AREA**2-loss on training set is 0.00012290
+===> Average AREA**2-loss on validation set is 0.00013032
+===> Average exact area on training set is 0.00502800
+===> Average exact area on validation set is 0.00463416
+===> Last best AREA**2-loss was 0.00467409 in epoch 35
+Best model copied
+
+ => Start train set for EPOCH 38
+===> Average AREA**2-loss on training set is 0.00011543
+===> Average AREA**2-loss on validation set is 0.00010806
+===> Average exact area on training set is 0.00487659
+===> Average exact area on validation set is 0.00412363
+===> Last best AREA**2-loss was 0.00463416 in epoch 37
+Best model copied
+
+ => Start train set for EPOCH 39
+===> Average AREA**2-loss on training set is 0.00010663
+===> Average AREA**2-loss on validation set is 0.00010040
+===> Average exact area on training set is 0.00474171
+===> Average exact area on validation set is 0.00395622
+===> Last best AREA**2-loss was 0.00412363 in epoch 38
+Best model copied
+
+ => Start train set for EPOCH 40
+===> Average AREA**2-loss on training set is 0.00010499
+===> Average AREA**2-loss on validation set is 0.00009766
+===> Average exact area on training set is 0.00469302
+===> Average exact area on validation set is 0.00392373
+===> Last best AREA**2-loss was 0.00395622 in epoch 39
+Best model copied
+
+ => Start train set for EPOCH 41
+===> Average AREA**2-loss on training set is 0.00009424
+===> Average AREA**2-loss on validation set is 0.00010577
+===> Average exact area on training set is 0.00448803
+===> Average exact area on validation set is 0.00403493
+===> Last best AREA**2-loss was 0.00392373 in epoch 40
+
+ => Start train set for EPOCH 42
+===> Average AREA**2-loss on training set is 0.00008726
+===> Average AREA**2-loss on validation set is 0.00010173
+===> Average exact area on training set is 0.00427336
+===> Average exact area on validation set is 0.00399645
+===> Last best AREA**2-loss was 0.00392373 in epoch 40
+
+ => Start train set for EPOCH 43
+===> Average AREA**2-loss on training set is 0.00008451
+===> Average AREA**2-loss on validation set is 0.00009785
+===> Average exact area on training set is 0.00419554
+===> Average exact area on validation set is 0.00392261
+===> Last best AREA**2-loss was 0.00392373 in epoch 40
+Best model copied
+
+ => Start train set for EPOCH 44
+===> Average AREA**2-loss on training set is 0.00007923
+===> Average AREA**2-loss on validation set is 0.00008845
+===> Average exact area on training set is 0.00407946
+===> Average exact area on validation set is 0.00372739
+===> Last best AREA**2-loss was 0.00392261 in epoch 43
+Best model copied
+
+ => Start train set for EPOCH 45
+===> Average AREA**2-loss on training set is 0.00007325
+===> Average AREA**2-loss on validation set is 0.00008934
+===> Average exact area on training set is 0.00396117
+===> Average exact area on validation set is 0.00373512
+===> Last best AREA**2-loss was 0.00372739 in epoch 44
+
+ => Start train set for EPOCH 46
+===> Average AREA**2-loss on training set is 0.00006933
+===> Average AREA**2-loss on validation set is 0.00007612
+===> Average exact area on training set is 0.00384378
+===> Average exact area on validation set is 0.00331734
+===> Last best AREA**2-loss was 0.00372739 in epoch 44
+Best model copied
+
+ => Start train set for EPOCH 47
+===> Average AREA**2-loss on training set is 0.00006261
+===> Average AREA**2-loss on validation set is 0.00007520
+===> Average exact area on training set is 0.00367824
+===> Average exact area on validation set is 0.00326525
+===> Last best AREA**2-loss was 0.00331734 in epoch 46
+Best model copied
+
+ => Start train set for EPOCH 48
+===> Average AREA**2-loss on training set is 0.00005691
+===> Average AREA**2-loss on validation set is 0.00006839
+===> Average exact area on training set is 0.00355089
+===> Average exact area on validation set is 0.00317256
+===> Last best AREA**2-loss was 0.00326525 in epoch 47
+Best model copied
+
+ => Start train set for EPOCH 49
+===> Average AREA**2-loss on training set is 0.00005365
+===> Average AREA**2-loss on validation set is 0.00007040
+===> Average exact area on training set is 0.00342755
+===> Average exact area on validation set is 0.00327132
+===> Last best AREA**2-loss was 0.00317256 in epoch 48
+
+ => Start train set for EPOCH 50
+===> Average AREA**2-loss on training set is 0.00005417
+===> Average AREA**2-loss on validation set is 0.00006520
+===> Average exact area on training set is 0.00343567
+===> Average exact area on validation set is 0.00303706
+===> Last best AREA**2-loss was 0.00317256 in epoch 48
+Best model copied
+
+ => Start train set for EPOCH 51
+===> Average AREA**2-loss on training set is 0.00004839
+===> Average AREA**2-loss on validation set is 0.00006226
+===> Average exact area on training set is 0.00325522
+===> Average exact area on validation set is 0.00313991
+===> Last best AREA**2-loss was 0.00303706 in epoch 50
+
+ => Start train set for EPOCH 52
+===> Average AREA**2-loss on training set is 0.00004911
+===> Average AREA**2-loss on validation set is 0.00005718
+===> Average exact area on training set is 0.00327373
+===> Average exact area on validation set is 0.00295551
+===> Last best AREA**2-loss was 0.00303706 in epoch 50
+Best model copied
+
+ => Start train set for EPOCH 53
+===> Average AREA**2-loss on training set is 0.00004490
+===> Average AREA**2-loss on validation set is 0.00005934
+===> Average exact area on training set is 0.00316379
+===> Average exact area on validation set is 0.00287196
+===> Last best AREA**2-loss was 0.00295551 in epoch 52
+Best model copied
+
+ => Start train set for EPOCH 54
+===> Average AREA**2-loss on training set is 0.00004252
+===> Average AREA**2-loss on validation set is 0.00005650
+===> Average exact area on training set is 0.00309103
+===> Average exact area on validation set is 0.00279384
+===> Last best AREA**2-loss was 0.00287196 in epoch 53
+Best model copied
+
+ => Start train set for EPOCH 55
+===> Average AREA**2-loss on training set is 0.00003974
+===> Average AREA**2-loss on validation set is 0.00004807
+===> Average exact area on training set is 0.00301146
+===> Average exact area on validation set is 0.00260617
+===> Last best AREA**2-loss was 0.00279384 in epoch 54
+Best model copied
+
+ => Start train set for EPOCH 56
+===> Average AREA**2-loss on training set is 0.00003696
+===> Average AREA**2-loss on validation set is 0.00004498
+===> Average exact area on training set is 0.00290747
+===> Average exact area on validation set is 0.00250698
+===> Last best AREA**2-loss was 0.00260617 in epoch 55
+Best model copied
+
+ => Start train set for EPOCH 57
+===> Average AREA**2-loss on training set is 0.00003387
+===> Average AREA**2-loss on validation set is 0.00004622
+===> Average exact area on training set is 0.00279003
+===> Average exact area on validation set is 0.00253995
+===> Last best AREA**2-loss was 0.00250698 in epoch 56
+
+ => Start train set for EPOCH 58
+===> Average AREA**2-loss on training set is 0.00003370
+===> Average AREA**2-loss on validation set is 0.00004485
+===> Average exact area on training set is 0.00277104
+===> Average exact area on validation set is 0.00254721
+===> Last best AREA**2-loss was 0.00250698 in epoch 56
+
+ => Start train set for EPOCH 59
+===> Average AREA**2-loss on training set is 0.00003167
+===> Average AREA**2-loss on validation set is 0.00004989
+===> Average exact area on training set is 0.00271183
+===> Average exact area on validation set is 0.00258948
+===> Last best AREA**2-loss was 0.00250698 in epoch 56
+
+ => Start train set for EPOCH 60
+===> Average AREA**2-loss on training set is 0.00003092
+===> Average AREA**2-loss on validation set is 0.00003902
+===> Average exact area on training set is 0.00268088
+===> Average exact area on validation set is 0.00229161
+===> Last best AREA**2-loss was 0.00250698 in epoch 56
+Best model copied
+
+ => Start train set for EPOCH 61
+===> Average AREA**2-loss on training set is 0.00003061
+===> Average AREA**2-loss on validation set is 0.00004592
+===> Average exact area on training set is 0.00267144
+===> Average exact area on validation set is 0.00255895
+===> Last best AREA**2-loss was 0.00229161 in epoch 60
+
+ => Start train set for EPOCH 62
+===> Average AREA**2-loss on training set is 0.00003022
+===> Average AREA**2-loss on validation set is 0.00004303
+===> Average exact area on training set is 0.00262012
+===> Average exact area on validation set is 0.00235425
+===> Last best AREA**2-loss was 0.00229161 in epoch 60
+
+ => Start train set for EPOCH 63
+===> Average AREA**2-loss on training set is 0.00002767
+===> Average AREA**2-loss on validation set is 0.00004205
+===> Average exact area on training set is 0.00251314
+===> Average exact area on validation set is 0.00227308
+===> Last best AREA**2-loss was 0.00229161 in epoch 60
+Best model copied
+
+ => Start train set for EPOCH 64
+===> Average AREA**2-loss on training set is 0.00002623
+===> Average AREA**2-loss on validation set is 0.00004291
+===> Average exact area on training set is 0.00248900
+===> Average exact area on validation set is 0.00228498
+===> Last best AREA**2-loss was 0.00227308 in epoch 63
+
+ => Start train set for EPOCH 65
+===> Average AREA**2-loss on training set is 0.00002509
+===> Average AREA**2-loss on validation set is 0.00003750
+===> Average exact area on training set is 0.00244310
+===> Average exact area on validation set is 0.00219936
+===> Last best AREA**2-loss was 0.00227308 in epoch 63
+Best model copied
+
+ => Start train set for EPOCH 66
+===> Average AREA**2-loss on training set is 0.00002229
+===> Average AREA**2-loss on validation set is 0.00003641
+===> Average exact area on training set is 0.00233692
+===> Average exact area on validation set is 0.00215648
+===> Last best AREA**2-loss was 0.00219936 in epoch 65
+Best model copied
+
+ => Start train set for EPOCH 67
+===> Average AREA**2-loss on training set is 0.00002139
+===> Average AREA**2-loss on validation set is 0.00003795
+===> Average exact area on training set is 0.00229328
+===> Average exact area on validation set is 0.00218420
+===> Last best AREA**2-loss was 0.00215648 in epoch 66
+
+ => Start train set for EPOCH 68
+===> Average AREA**2-loss on training set is 0.00002168
+===> Average AREA**2-loss on validation set is 0.00003406
+===> Average exact area on training set is 0.00227146
+===> Average exact area on validation set is 0.00210714
+===> Last best AREA**2-loss was 0.00215648 in epoch 66
+Best model copied
+
+ => Start train set for EPOCH 69
+===> Average AREA**2-loss on training set is 0.00001960
+===> Average AREA**2-loss on validation set is 0.00003223
+===> Average exact area on training set is 0.00220742
+===> Average exact area on validation set is 0.00208202
+===> Last best AREA**2-loss was 0.00210714 in epoch 68
+Best model copied
+
+ => Start train set for EPOCH 70
+===> Average AREA**2-loss on training set is 0.00001820
+===> Average AREA**2-loss on validation set is 0.00003067
+===> Average exact area on training set is 0.00215614
+===> Average exact area on validation set is 0.00198892
+===> Last best AREA**2-loss was 0.00208202 in epoch 69
+Best model copied
+
+ => Start train set for EPOCH 71
+===> Average AREA**2-loss on training set is 0.00001850
+===> Average AREA**2-loss on validation set is 0.00003115
+===> Average exact area on training set is 0.00214502
+===> Average exact area on validation set is 0.00195015
+===> Last best AREA**2-loss was 0.00198892 in epoch 70
+Best model copied
+
+ => Start train set for EPOCH 72
+===> Average AREA**2-loss on training set is 0.00001884
+===> Average AREA**2-loss on validation set is 0.00002839
+===> Average exact area on training set is 0.00214014
+===> Average exact area on validation set is 0.00193440
+===> Last best AREA**2-loss was 0.00195015 in epoch 71
+Best model copied
+
+ => Start train set for EPOCH 73
+===> Average AREA**2-loss on training set is 0.00001923
+===> Average AREA**2-loss on validation set is 0.00003047
+===> Average exact area on training set is 0.00216914
+===> Average exact area on validation set is 0.00196475
+===> Last best AREA**2-loss was 0.00193440 in epoch 72
+
+ => Start train set for EPOCH 74
+===> Average AREA**2-loss on training set is 0.00001962
+===> Average AREA**2-loss on validation set is 0.00003031
+===> Average exact area on training set is 0.00215058
+===> Average exact area on validation set is 0.00190807
+===> Last best AREA**2-loss was 0.00193440 in epoch 72
+Best model copied
+
+ => Start train set for EPOCH 75
+===> Average AREA**2-loss on training set is 0.00001705
+===> Average AREA**2-loss on validation set is 0.00002778
+===> Average exact area on training set is 0.00205417
+===> Average exact area on validation set is 0.00192318
+===> Last best AREA**2-loss was 0.00190807 in epoch 74
+
+ => Start train set for EPOCH 76
+===> Average AREA**2-loss on training set is 0.00001567
+===> Average AREA**2-loss on validation set is 0.00003170
+===> Average exact area on training set is 0.00200962
+===> Average exact area on validation set is 0.00198735
+===> Last best AREA**2-loss was 0.00190807 in epoch 74
+
+ => Start train set for EPOCH 77
+===> Average AREA**2-loss on training set is 0.00001481
+===> Average AREA**2-loss on validation set is 0.00003032
+===> Average exact area on training set is 0.00197178
+===> Average exact area on validation set is 0.00199104
+===> Last best AREA**2-loss was 0.00190807 in epoch 74
+
+ => Start train set for EPOCH 78
+===> Average AREA**2-loss on training set is 0.00001524
+===> Average AREA**2-loss on validation set is 0.00002600
+===> Average exact area on training set is 0.00197851
+===> Average exact area on validation set is 0.00182850
+===> Last best AREA**2-loss was 0.00190807 in epoch 74
+Best model copied
+
+ => Start train set for EPOCH 79
+===> Average AREA**2-loss on training set is 0.00001411
+===> Average AREA**2-loss on validation set is 0.00002929
+===> Average exact area on training set is 0.00191846
+===> Average exact area on validation set is 0.00186388
+===> Last best AREA**2-loss was 0.00182850 in epoch 78
+
+ => Start train set for EPOCH 80
+===> Average AREA**2-loss on training set is 0.00001398
+===> Average AREA**2-loss on validation set is 0.00002781
+===> Average exact area on training set is 0.00191365
+===> Average exact area on validation set is 0.00180667
+===> Last best AREA**2-loss was 0.00182850 in epoch 78
+Best model copied
+
+ => Start train set for EPOCH 81
+===> Average AREA**2-loss on training set is 0.00001314
+===> Average AREA**2-loss on validation set is 0.00003039
+===> Average exact area on training set is 0.00187339
+===> Average exact area on validation set is 0.00188001
+===> Last best AREA**2-loss was 0.00180667 in epoch 80
+
+ => Start train set for EPOCH 82
+===> Average AREA**2-loss on training set is 0.00001426
+===> Average AREA**2-loss on validation set is 0.00002984
+===> Average exact area on training set is 0.00191500
+===> Average exact area on validation set is 0.00180623
+===> Last best AREA**2-loss was 0.00180667 in epoch 80
+Best model copied
+
+ => Start train set for EPOCH 83
+===> Average AREA**2-loss on training set is 0.00001343
+===> Average AREA**2-loss on validation set is 0.00002674
+===> Average exact area on training set is 0.00188278
+===> Average exact area on validation set is 0.00176379
+===> Last best AREA**2-loss was 0.00180623 in epoch 82
+Best model copied
+
+ => Start train set for EPOCH 84
+===> Average AREA**2-loss on training set is 0.00001198
+===> Average AREA**2-loss on validation set is 0.00002691
+===> Average exact area on training set is 0.00181196
+===> Average exact area on validation set is 0.00175021
+===> Last best AREA**2-loss was 0.00176379 in epoch 83
+Best model copied
+
+ => Start train set for EPOCH 85
+===> Average AREA**2-loss on training set is 0.00001208
+===> Average AREA**2-loss on validation set is 0.00002534
+===> Average exact area on training set is 0.00181442
+===> Average exact area on validation set is 0.00179026
+===> Last best AREA**2-loss was 0.00175021 in epoch 84
+
+ => Start train set for EPOCH 86
+===> Average AREA**2-loss on training set is 0.00001198
+===> Average AREA**2-loss on validation set is 0.00002611
+===> Average exact area on training set is 0.00179818
+===> Average exact area on validation set is 0.00170523
+===> Last best AREA**2-loss was 0.00175021 in epoch 84
+Best model copied
+
+ => Start train set for EPOCH 87
+===> Average AREA**2-loss on training set is 0.00001184
+===> Average AREA**2-loss on validation set is 0.00002830
+===> Average exact area on training set is 0.00179169
+===> Average exact area on validation set is 0.00175874
+===> Last best AREA**2-loss was 0.00170523 in epoch 86
+
+ => Start train set for EPOCH 88
+===> Average AREA**2-loss on training set is 0.00001128
+===> Average AREA**2-loss on validation set is 0.00002669
+===> Average exact area on training set is 0.00176130
+===> Average exact area on validation set is 0.00170076
+===> Last best AREA**2-loss was 0.00170523 in epoch 86
+Best model copied
+
+ => Start train set for EPOCH 89
+===> Average AREA**2-loss on training set is 0.00001060
+===> Average AREA**2-loss on validation set is 0.00002534
+===> Average exact area on training set is 0.00172874
+===> Average exact area on validation set is 0.00170057
+===> Last best AREA**2-loss was 0.00170076 in epoch 88
+Best model copied
+
+ => Start train set for EPOCH 90
+===> Average AREA**2-loss on training set is 0.00001021
+===> Average AREA**2-loss on validation set is 0.00002581
+===> Average exact area on training set is 0.00171623
+===> Average exact area on validation set is 0.00168912
+===> Last best AREA**2-loss was 0.00170057 in epoch 89
+Best model copied
+
+ => Start train set for EPOCH 91
+===> Average AREA**2-loss on training set is 0.00000951
+===> Average AREA**2-loss on validation set is 0.00002447
+===> Average exact area on training set is 0.00167496
+===> Average exact area on validation set is 0.00167171
+===> Last best AREA**2-loss was 0.00168912 in epoch 90
+Best model copied
+
+ => Start train set for EPOCH 92
+===> Average AREA**2-loss on training set is 0.00000997
+===> Average AREA**2-loss on validation set is 0.00002595
+===> Average exact area on training set is 0.00168461
+===> Average exact area on validation set is 0.00169276
+===> Last best AREA**2-loss was 0.00167171 in epoch 91
+
+ => Start train set for EPOCH 93
+===> Average AREA**2-loss on training set is 0.00001002
+===> Average AREA**2-loss on validation set is 0.00002330
+===> Average exact area on training set is 0.00168589
+===> Average exact area on validation set is 0.00166069
+===> Last best AREA**2-loss was 0.00167171 in epoch 91
+Best model copied
+
+ => Start train set for EPOCH 94
+===> Average AREA**2-loss on training set is 0.00000899
+===> Average AREA**2-loss on validation set is 0.00002462
+===> Average exact area on training set is 0.00163585
+===> Average exact area on validation set is 0.00167475
+===> Last best AREA**2-loss was 0.00166069 in epoch 93
+
+ => Start train set for EPOCH 95
+===> Average AREA**2-loss on training set is 0.00000878
+===> Average AREA**2-loss on validation set is 0.00002719
+===> Average exact area on training set is 0.00162017
+===> Average exact area on validation set is 0.00169177
+===> Last best AREA**2-loss was 0.00166069 in epoch 93
+
+ => Start train set for EPOCH 96
+===> Average AREA**2-loss on training set is 0.00000953
+===> Average AREA**2-loss on validation set is 0.00002467
+===> Average exact area on training set is 0.00165757
+===> Average exact area on validation set is 0.00167337
+===> Last best AREA**2-loss was 0.00166069 in epoch 93
+
+ => Start train set for EPOCH 97
+===> Average AREA**2-loss on training set is 0.00000856
+===> Average AREA**2-loss on validation set is 0.00002614
+===> Average exact area on training set is 0.00159993
+===> Average exact area on validation set is 0.00170063
+===> Last best AREA**2-loss was 0.00166069 in epoch 93
+
+ => Start train set for EPOCH 98
+===> Average AREA**2-loss on training set is 0.00000812
+===> Average AREA**2-loss on validation set is 0.00002338
+===> Average exact area on training set is 0.00158329
+===> Average exact area on validation set is 0.00168833
+===> Last best AREA**2-loss was 0.00166069 in epoch 93
+
+ => Start train set for EPOCH 99
+===> Average AREA**2-loss on training set is 0.00000823
+===> Average AREA**2-loss on validation set is 0.00002341
+===> Average exact area on training set is 0.00158269
+===> Average exact area on validation set is 0.00165396
+===> Last best AREA**2-loss was 0.00166069 in epoch 93
+Best model copied
+
+ => Start train set for EPOCH 100
+===> Average AREA**2-loss on training set is 0.00000819
+===> Average AREA**2-loss on validation set is 0.00002325
+===> Average exact area on training set is 0.00157594
+===> Average exact area on validation set is 0.00163325
+===> Last best AREA**2-loss was 0.00165396 in epoch 99
+Best model copied
+
+ => Start train set for EPOCH 101
+===> Average AREA**2-loss on training set is 0.00000753
+===> Average AREA**2-loss on validation set is 0.00002456
+===> Average exact area on training set is 0.00153803
+===> Average exact area on validation set is 0.00161047
+===> Last best AREA**2-loss was 0.00163325 in epoch 100
+Best model copied
+
+ => Start train set for EPOCH 102
+===> Average AREA**2-loss on training set is 0.00000750
+===> Average AREA**2-loss on validation set is 0.00002245
+===> Average exact area on training set is 0.00153779
+===> Average exact area on validation set is 0.00162405
+===> Last best AREA**2-loss was 0.00161047 in epoch 101
+
+ => Start train set for EPOCH 103
+===> Average AREA**2-loss on training set is 0.00000682
+===> Average AREA**2-loss on validation set is 0.00002631
+===> Average exact area on training set is 0.00149455
+===> Average exact area on validation set is 0.00169593
+===> Last best AREA**2-loss was 0.00161047 in epoch 101
+
+ => Start train set for EPOCH 104
+===> Average AREA**2-loss on training set is 0.00000775
+===> Average AREA**2-loss on validation set is 0.00002210
+===> Average exact area on training set is 0.00155007
+===> Average exact area on validation set is 0.00165276
+===> Last best AREA**2-loss was 0.00161047 in epoch 101
+
+ => Start train set for EPOCH 105
+===> Average AREA**2-loss on training set is 0.00000932
+===> Average AREA**2-loss on validation set is 0.00002166
+===> Average exact area on training set is 0.00158402
+===> Average exact area on validation set is 0.00161114
+===> Last best AREA**2-loss was 0.00161047 in epoch 101
+
+ => Start train set for EPOCH 106
+===> Average AREA**2-loss on training set is 0.00000704
+===> Average AREA**2-loss on validation set is 0.00002100
+===> Average exact area on training set is 0.00150316
+===> Average exact area on validation set is 0.00158899
+===> Last best AREA**2-loss was 0.00161047 in epoch 101
+Best model copied
+
+ => Start train set for EPOCH 107
+===> Average AREA**2-loss on training set is 0.00000981
+===> Average AREA**2-loss on validation set is 0.00002346
+===> Average exact area on training set is 0.00161678
+===> Average exact area on validation set is 0.00165164
+===> Last best AREA**2-loss was 0.00158899 in epoch 106
+
+ => Start train set for EPOCH 108
+===> Average AREA**2-loss on training set is 0.00000759
+===> Average AREA**2-loss on validation set is 0.00002274
+===> Average exact area on training set is 0.00152892
+===> Average exact area on validation set is 0.00162196
+===> Last best AREA**2-loss was 0.00158899 in epoch 106
+
+ => Start train set for EPOCH 109
+===> Average AREA**2-loss on training set is 0.00000669
+===> Average AREA**2-loss on validation set is 0.00002214
+===> Average exact area on training set is 0.00148798
+===> Average exact area on validation set is 0.00158525
+===> Last best AREA**2-loss was 0.00158899 in epoch 106
+Best model copied
+
+ => Start train set for EPOCH 110
+===> Average AREA**2-loss on training set is 0.00000612
+===> Average AREA**2-loss on validation set is 0.00002099
+===> Average exact area on training set is 0.00143960
+===> Average exact area on validation set is 0.00158783
+===> Last best AREA**2-loss was 0.00158525 in epoch 109
+
+ => Start train set for EPOCH 111
+===> Average AREA**2-loss on training set is 0.00000619
+===> Average AREA**2-loss on validation set is 0.00002071
+===> Average exact area on training set is 0.00144201
+===> Average exact area on validation set is 0.00158251
+===> Last best AREA**2-loss was 0.00158525 in epoch 109
+Best model copied
+
+ => Start train set for EPOCH 112
+===> Average AREA**2-loss on training set is 0.00000588
+===> Average AREA**2-loss on validation set is 0.00002076
+===> Average exact area on training set is 0.00142041
+===> Average exact area on validation set is 0.00156239
+===> Last best AREA**2-loss was 0.00158251 in epoch 111
+Best model copied
+
+ => Start train set for EPOCH 113
+===> Average AREA**2-loss on training set is 0.00000578
+===> Average AREA**2-loss on validation set is 0.00002193
+===> Average exact area on training set is 0.00141838
+===> Average exact area on validation set is 0.00155795
+===> Last best AREA**2-loss was 0.00156239 in epoch 112
+Best model copied
+
+ => Start train set for EPOCH 114
+===> Average AREA**2-loss on training set is 0.00000551
+===> Average AREA**2-loss on validation set is 0.00002131
+===> Average exact area on training set is 0.00139388
+===> Average exact area on validation set is 0.00158185
+===> Last best AREA**2-loss was 0.00155795 in epoch 113
+
+ => Start train set for EPOCH 115
+===> Average AREA**2-loss on training set is 0.00000529
+===> Average AREA**2-loss on validation set is 0.00002216
+===> Average exact area on training set is 0.00137842
+===> Average exact area on validation set is 0.00162264
+===> Last best AREA**2-loss was 0.00155795 in epoch 113
+
+ => Start train set for EPOCH 116
+===> Average AREA**2-loss on training set is 0.00000525
+===> Average AREA**2-loss on validation set is 0.00002088
+===> Average exact area on training set is 0.00136939
+===> Average exact area on validation set is 0.00155958
+===> Last best AREA**2-loss was 0.00155795 in epoch 113
+
+ => Start train set for EPOCH 117
+===> Average AREA**2-loss on training set is 0.00000522
+===> Average AREA**2-loss on validation set is 0.00002192
+===> Average exact area on training set is 0.00136600
+===> Average exact area on validation set is 0.00154998
+===> Last best AREA**2-loss was 0.00155795 in epoch 113
+Best model copied
+
+ => Start train set for EPOCH 118
+===> Average AREA**2-loss on training set is 0.00000504
+===> Average AREA**2-loss on validation set is 0.00002147
+===> Average exact area on training set is 0.00136122
+===> Average exact area on validation set is 0.00155051
+===> Last best AREA**2-loss was 0.00154998 in epoch 117
+
+ => Start train set for EPOCH 119
+===> Average AREA**2-loss on training set is 0.00000529
+===> Average AREA**2-loss on validation set is 0.00002291
+===> Average exact area on training set is 0.00137185
+===> Average exact area on validation set is 0.00157866
+===> Last best AREA**2-loss was 0.00154998 in epoch 117
+
+ => Start train set for EPOCH 120
+===> Average AREA**2-loss on training set is 0.00000537
+===> Average AREA**2-loss on validation set is 0.00002155
+===> Average exact area on training set is 0.00137585
+===> Average exact area on validation set is 0.00154867
+===> Last best AREA**2-loss was 0.00154998 in epoch 117
+Best model copied
+
+ => Start train set for EPOCH 121
+===> Average AREA**2-loss on training set is 0.00000510
+===> Average AREA**2-loss on validation set is 0.00002455
+===> Average exact area on training set is 0.00135482
+===> Average exact area on validation set is 0.00160240
+===> Last best AREA**2-loss was 0.00154867 in epoch 120
+
+ => Start train set for EPOCH 122
+===> Average AREA**2-loss on training set is 0.00000519
+===> Average AREA**2-loss on validation set is 0.00002252
+===> Average exact area on training set is 0.00136068
+===> Average exact area on validation set is 0.00155738
+===> Last best AREA**2-loss was 0.00154867 in epoch 120
+
+ => Start train set for EPOCH 123
+===> Average AREA**2-loss on training set is 0.00000457
+===> Average AREA**2-loss on validation set is 0.00002123
+===> Average exact area on training set is 0.00131738
+===> Average exact area on validation set is 0.00154052
+===> Last best AREA**2-loss was 0.00154867 in epoch 120
+Best model copied
+
+ => Start train set for EPOCH 124
+===> Average AREA**2-loss on training set is 0.00000453
+===> Average AREA**2-loss on validation set is 0.00002229
+===> Average exact area on training set is 0.00130472
+===> Average exact area on validation set is 0.00156305
+===> Last best AREA**2-loss was 0.00154052 in epoch 123
+
+ => Start train set for EPOCH 125
+===> Average AREA**2-loss on training set is 0.00000472
+===> Average AREA**2-loss on validation set is 0.00002183
+===> Average exact area on training set is 0.00132238
+===> Average exact area on validation set is 0.00153359
+===> Last best AREA**2-loss was 0.00154052 in epoch 123
+Best model copied
+
+ => Start train set for EPOCH 126
+===> Average AREA**2-loss on training set is 0.00000469
+===> Average AREA**2-loss on validation set is 0.00002105
+===> Average exact area on training set is 0.00131985
+===> Average exact area on validation set is 0.00153128
+===> Last best AREA**2-loss was 0.00153359 in epoch 125
+Best model copied
+
+ => Start train set for EPOCH 127
+===> Average AREA**2-loss on training set is 0.00000461
+===> Average AREA**2-loss on validation set is 0.00001993
+===> Average exact area on training set is 0.00131028
+===> Average exact area on validation set is 0.00150825
+===> Last best AREA**2-loss was 0.00153128 in epoch 126
+Best model copied
+
+ => Start train set for EPOCH 128
+===> Average AREA**2-loss on training set is 0.00000433
+===> Average AREA**2-loss on validation set is 0.00002137
+===> Average exact area on training set is 0.00128509
+===> Average exact area on validation set is 0.00153445
+===> Last best AREA**2-loss was 0.00150825 in epoch 127
+
+ => Start train set for EPOCH 129
+===> Average AREA**2-loss on training set is 0.00000426
+===> Average AREA**2-loss on validation set is 0.00001978
+===> Average exact area on training set is 0.00127440
+===> Average exact area on validation set is 0.00152358
+===> Last best AREA**2-loss was 0.00150825 in epoch 127
+
+ => Start train set for EPOCH 130
+===> Average AREA**2-loss on training set is 0.00000434
+===> Average AREA**2-loss on validation set is 0.00002146
+===> Average exact area on training set is 0.00128674
+===> Average exact area on validation set is 0.00155305
+===> Last best AREA**2-loss was 0.00150825 in epoch 127
+
+ => Start train set for EPOCH 131
+===> Average AREA**2-loss on training set is 0.00000446
+===> Average AREA**2-loss on validation set is 0.00002333
+===> Average exact area on training set is 0.00129487
+===> Average exact area on validation set is 0.00156878
+===> Last best AREA**2-loss was 0.00150825 in epoch 127
+
+ => Start train set for EPOCH 132
+===> Average AREA**2-loss on training set is 0.00000441
+===> Average AREA**2-loss on validation set is 0.00002231
+===> Average exact area on training set is 0.00129160
+===> Average exact area on validation set is 0.00158817
+===> Last best AREA**2-loss was 0.00150825 in epoch 127
+
+ => Start train set for EPOCH 133
+===> Average AREA**2-loss on training set is 0.00000412
+===> Average AREA**2-loss on validation set is 0.00001982
+===> Average exact area on training set is 0.00126401
+===> Average exact area on validation set is 0.00151482
+===> Last best AREA**2-loss was 0.00150825 in epoch 127
+
+ => Start train set for EPOCH 134
+===> Average AREA**2-loss on training set is 0.00000428
+===> Average AREA**2-loss on validation set is 0.00001854
+===> Average exact area on training set is 0.00126767
+===> Average exact area on validation set is 0.00150663
+===> Last best AREA**2-loss was 0.00150825 in epoch 127
+Best model copied
+
+ => Start train set for EPOCH 135
+===> Average AREA**2-loss on training set is 0.00000399
+===> Average AREA**2-loss on validation set is 0.00002016
+===> Average exact area on training set is 0.00124627
+===> Average exact area on validation set is 0.00153219
+===> Last best AREA**2-loss was 0.00150663 in epoch 134
+
+ => Start train set for EPOCH 136
+===> Average AREA**2-loss on training set is 0.00000387
+===> Average AREA**2-loss on validation set is 0.00001912
+===> Average exact area on training set is 0.00124319
+===> Average exact area on validation set is 0.00149873
+===> Last best AREA**2-loss was 0.00150663 in epoch 134
+Best model copied
+
+ => Start train set for EPOCH 137
+===> Average AREA**2-loss on training set is 0.00000351
+===> Average AREA**2-loss on validation set is 0.00002000
+===> Average exact area on training set is 0.00120911
+===> Average exact area on validation set is 0.00155864
+===> Last best AREA**2-loss was 0.00149873 in epoch 136
+
+ => Start train set for EPOCH 138
+===> Average AREA**2-loss on training set is 0.00000358
+===> Average AREA**2-loss on validation set is 0.00001888
+===> Average exact area on training set is 0.00121133
+===> Average exact area on validation set is 0.00150427
+===> Last best AREA**2-loss was 0.00149873 in epoch 136
+
+ => Start train set for EPOCH 139
+===> Average AREA**2-loss on training set is 0.00000366
+===> Average AREA**2-loss on validation set is 0.00001937
+===> Average exact area on training set is 0.00122289
+===> Average exact area on validation set is 0.00150942
+===> Last best AREA**2-loss was 0.00149873 in epoch 136
+
+ => Start train set for EPOCH 140
+===> Average AREA**2-loss on training set is 0.00000364
+===> Average AREA**2-loss on validation set is 0.00002000
+===> Average exact area on training set is 0.00121265
+===> Average exact area on validation set is 0.00150702
+===> Last best AREA**2-loss was 0.00149873 in epoch 136
+
+ => Start train set for EPOCH 141
+===> Average AREA**2-loss on training set is 0.00000342
+===> Average AREA**2-loss on validation set is 0.00002028
+===> Average exact area on training set is 0.00120194
+===> Average exact area on validation set is 0.00149987
+===> Last best AREA**2-loss was 0.00149873 in epoch 136
+
+ => Start train set for EPOCH 142
+===> Average AREA**2-loss on training set is 0.00000336
+===> Average AREA**2-loss on validation set is 0.00001961
+===> Average exact area on training set is 0.00119157
+===> Average exact area on validation set is 0.00148429
+===> Last best AREA**2-loss was 0.00149873 in epoch 136
+Best model copied
+
+ => Start train set for EPOCH 143
+===> Average AREA**2-loss on training set is 0.00000337
+===> Average AREA**2-loss on validation set is 0.00002108
+===> Average exact area on training set is 0.00118540
+===> Average exact area on validation set is 0.00151124
+===> Last best AREA**2-loss was 0.00148429 in epoch 142
+
+ => Start train set for EPOCH 144
+===> Average AREA**2-loss on training set is 0.00000350
+===> Average AREA**2-loss on validation set is 0.00002063
+===> Average exact area on training set is 0.00119435
+===> Average exact area on validation set is 0.00152336
+===> Last best AREA**2-loss was 0.00148429 in epoch 142
+
+ => Start train set for EPOCH 145
+===> Average AREA**2-loss on training set is 0.00000343
+===> Average AREA**2-loss on validation set is 0.00002086
+===> Average exact area on training set is 0.00118743
+===> Average exact area on validation set is 0.00151114
+===> Last best AREA**2-loss was 0.00148429 in epoch 142
+
+ => Start train set for EPOCH 146
+===> Average AREA**2-loss on training set is 0.00000336
+===> Average AREA**2-loss on validation set is 0.00001946
+===> Average exact area on training set is 0.00117991
+===> Average exact area on validation set is 0.00150386
+===> Last best AREA**2-loss was 0.00148429 in epoch 142
+
+ => Start train set for EPOCH 147
+===> Average AREA**2-loss on training set is 0.00000328
+===> Average AREA**2-loss on validation set is 0.00002109
+===> Average exact area on training set is 0.00117418
+===> Average exact area on validation set is 0.00152581
+===> Last best AREA**2-loss was 0.00148429 in epoch 142
+
+ => Start train set for EPOCH 148
+===> Average AREA**2-loss on training set is 0.00000320
+===> Average AREA**2-loss on validation set is 0.00001887
+===> Average exact area on training set is 0.00116805
+===> Average exact area on validation set is 0.00147206
+===> Last best AREA**2-loss was 0.00148429 in epoch 142
+Best model copied
+
+ => Start train set for EPOCH 149
+===> Average AREA**2-loss on training set is 0.00000288
+===> Average AREA**2-loss on validation set is 0.00001967
+===> Average exact area on training set is 0.00113519
+===> Average exact area on validation set is 0.00151445
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 150
+===> Average AREA**2-loss on training set is 0.00000301
+===> Average AREA**2-loss on validation set is 0.00001998
+===> Average exact area on training set is 0.00114610
+===> Average exact area on validation set is 0.00149438
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 151
+===> Average AREA**2-loss on training set is 0.00000313
+===> Average AREA**2-loss on validation set is 0.00002098
+===> Average exact area on training set is 0.00115813
+===> Average exact area on validation set is 0.00152721
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 152
+===> Average AREA**2-loss on training set is 0.00000304
+===> Average AREA**2-loss on validation set is 0.00001999
+===> Average exact area on training set is 0.00115081
+===> Average exact area on validation set is 0.00149395
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 153
+===> Average AREA**2-loss on training set is 0.00000286
+===> Average AREA**2-loss on validation set is 0.00001890
+===> Average exact area on training set is 0.00113405
+===> Average exact area on validation set is 0.00149804
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 154
+===> Average AREA**2-loss on training set is 0.00000288
+===> Average AREA**2-loss on validation set is 0.00002004
+===> Average exact area on training set is 0.00113251
+===> Average exact area on validation set is 0.00150788
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 155
+===> Average AREA**2-loss on training set is 0.00000290
+===> Average AREA**2-loss on validation set is 0.00001948
+===> Average exact area on training set is 0.00112906
+===> Average exact area on validation set is 0.00151409
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 156
+===> Average AREA**2-loss on training set is 0.00000276
+===> Average AREA**2-loss on validation set is 0.00002033
+===> Average exact area on training set is 0.00111572
+===> Average exact area on validation set is 0.00152492
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 157
+===> Average AREA**2-loss on training set is 0.00000293
+===> Average AREA**2-loss on validation set is 0.00001902
+===> Average exact area on training set is 0.00113037
+===> Average exact area on validation set is 0.00148879
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 158
+===> Average AREA**2-loss on training set is 0.00001054
+===> Average AREA**2-loss on validation set is 0.00002833
+===> Average exact area on training set is 0.00144080
+===> Average exact area on validation set is 0.00188403
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 159
+===> Average AREA**2-loss on training set is 0.00000678
+===> Average AREA**2-loss on validation set is 0.00002299
+===> Average exact area on training set is 0.00143250
+===> Average exact area on validation set is 0.00157136
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 160
+===> Average AREA**2-loss on training set is 0.00000443
+===> Average AREA**2-loss on validation set is 0.00001848
+===> Average exact area on training set is 0.00126681
+===> Average exact area on validation set is 0.00150954
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 161
+===> Average AREA**2-loss on training set is 0.00000356
+===> Average AREA**2-loss on validation set is 0.00001909
+===> Average exact area on training set is 0.00120810
+===> Average exact area on validation set is 0.00150732
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 162
+===> Average AREA**2-loss on training set is 0.00000305
+===> Average AREA**2-loss on validation set is 0.00001997
+===> Average exact area on training set is 0.00115769
+===> Average exact area on validation set is 0.00150218
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 163
+===> Average AREA**2-loss on training set is 0.00000282
+===> Average AREA**2-loss on validation set is 0.00001942
+===> Average exact area on training set is 0.00113321
+===> Average exact area on validation set is 0.00148886
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 164
+===> Average AREA**2-loss on training set is 0.00000269
+===> Average AREA**2-loss on validation set is 0.00001848
+===> Average exact area on training set is 0.00111252
+===> Average exact area on validation set is 0.00147526
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 165
+===> Average AREA**2-loss on training set is 0.00000261
+===> Average AREA**2-loss on validation set is 0.00001892
+===> Average exact area on training set is 0.00110232
+===> Average exact area on validation set is 0.00147978
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 166
+===> Average AREA**2-loss on training set is 0.00000255
+===> Average AREA**2-loss on validation set is 0.00001905
+===> Average exact area on training set is 0.00109338
+===> Average exact area on validation set is 0.00148868
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 167
+===> Average AREA**2-loss on training set is 0.00000247
+===> Average AREA**2-loss on validation set is 0.00001898
+===> Average exact area on training set is 0.00108236
+===> Average exact area on validation set is 0.00148254
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 168
+===> Average AREA**2-loss on training set is 0.00000244
+===> Average AREA**2-loss on validation set is 0.00001869
+===> Average exact area on training set is 0.00107706
+===> Average exact area on validation set is 0.00149340
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 169
+===> Average AREA**2-loss on training set is 0.00000245
+===> Average AREA**2-loss on validation set is 0.00001981
+===> Average exact area on training set is 0.00108266
+===> Average exact area on validation set is 0.00151237
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 170
+===> Average AREA**2-loss on training set is 0.00000236
+===> Average AREA**2-loss on validation set is 0.00001942
+===> Average exact area on training set is 0.00106658
+===> Average exact area on validation set is 0.00149169
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 171
+===> Average AREA**2-loss on training set is 0.00000240
+===> Average AREA**2-loss on validation set is 0.00001871
+===> Average exact area on training set is 0.00106702
+===> Average exact area on validation set is 0.00148206
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+
+ => Start train set for EPOCH 172
+===> Average AREA**2-loss on training set is 0.00000233
+===> Average AREA**2-loss on validation set is 0.00001813
+===> Average exact area on training set is 0.00106257
+===> Average exact area on validation set is 0.00146332
+===> Last best AREA**2-loss was 0.00147206 in epoch 148
+Best model copied
+
+ => Start train set for EPOCH 173
+===> Average AREA**2-loss on training set is 0.00000240
+===> Average AREA**2-loss on validation set is 0.00001840
+===> Average exact area on training set is 0.00107167
+===> Average exact area on validation set is 0.00147563
+===> Last best AREA**2-loss was 0.00146332 in epoch 172
+
+ => Start train set for EPOCH 174
+===> Average AREA**2-loss on training set is 0.00000231
+===> Average AREA**2-loss on validation set is 0.00001916
+===> Average exact area on training set is 0.00105853
+===> Average exact area on validation set is 0.00150257
+===> Last best AREA**2-loss was 0.00146332 in epoch 172
+
+ => Start train set for EPOCH 175
+===> Average AREA**2-loss on training set is 0.00000234
+===> Average AREA**2-loss on validation set is 0.00001997
+===> Average exact area on training set is 0.00105976
+===> Average exact area on validation set is 0.00151922
+===> Last best AREA**2-loss was 0.00146332 in epoch 172
+
+ => Start train set for EPOCH 176
+===> Average AREA**2-loss on training set is 0.00000223
+===> Average AREA**2-loss on validation set is 0.00001899
+===> Average exact area on training set is 0.00104491
+===> Average exact area on validation set is 0.00148094
+===> Last best AREA**2-loss was 0.00146332 in epoch 172
+
+ => Start train set for EPOCH 177
+===> Average AREA**2-loss on training set is 0.00000243
+===> Average AREA**2-loss on validation set is 0.00001973
+===> Average exact area on training set is 0.00106797
+===> Average exact area on validation set is 0.00151198
+===> Last best AREA**2-loss was 0.00146332 in epoch 172
+
+ => Start train set for EPOCH 178
+===> Average AREA**2-loss on training set is 0.00000236
+===> Average AREA**2-loss on validation set is 0.00001933
+===> Average exact area on training set is 0.00105720
+===> Average exact area on validation set is 0.00149132
+===> Last best AREA**2-loss was 0.00146332 in epoch 172
+
+ => Start train set for EPOCH 179
+===> Average AREA**2-loss on training set is 0.00000233
+===> Average AREA**2-loss on validation set is 0.00001925
+===> Average exact area on training set is 0.00105153
+===> Average exact area on validation set is 0.00145764
+===> Last best AREA**2-loss was 0.00146332 in epoch 172
+Best model copied
+
+ => Start train set for EPOCH 180
+===> Average AREA**2-loss on training set is 0.00000223
+===> Average AREA**2-loss on validation set is 0.00001875
+===> Average exact area on training set is 0.00104654
+===> Average exact area on validation set is 0.00147801
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 181
+===> Average AREA**2-loss on training set is 0.00000225
+===> Average AREA**2-loss on validation set is 0.00001966
+===> Average exact area on training set is 0.00104641
+===> Average exact area on validation set is 0.00149687
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 182
+===> Average AREA**2-loss on training set is 0.00000227
+===> Average AREA**2-loss on validation set is 0.00001978
+===> Average exact area on training set is 0.00104489
+===> Average exact area on validation set is 0.00150249
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 183
+===> Average AREA**2-loss on training set is 0.00000224
+===> Average AREA**2-loss on validation set is 0.00001934
+===> Average exact area on training set is 0.00104304
+===> Average exact area on validation set is 0.00149922
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 184
+===> Average AREA**2-loss on training set is 0.00000225
+===> Average AREA**2-loss on validation set is 0.00001902
+===> Average exact area on training set is 0.00103949
+===> Average exact area on validation set is 0.00147544
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 185
+===> Average AREA**2-loss on training set is 0.00000225
+===> Average AREA**2-loss on validation set is 0.00001870
+===> Average exact area on training set is 0.00103790
+===> Average exact area on validation set is 0.00147147
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 186
+===> Average AREA**2-loss on training set is 0.00000216
+===> Average AREA**2-loss on validation set is 0.00001883
+===> Average exact area on training set is 0.00103374
+===> Average exact area on validation set is 0.00148741
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 187
+===> Average AREA**2-loss on training set is 0.00000217
+===> Average AREA**2-loss on validation set is 0.00002020
+===> Average exact area on training set is 0.00103266
+===> Average exact area on validation set is 0.00153112
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 188
+===> Average AREA**2-loss on training set is 0.00000202
+===> Average AREA**2-loss on validation set is 0.00001978
+===> Average exact area on training set is 0.00101814
+===> Average exact area on validation set is 0.00148394
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 189
+===> Average AREA**2-loss on training set is 0.00000216
+===> Average AREA**2-loss on validation set is 0.00002044
+===> Average exact area on training set is 0.00102248
+===> Average exact area on validation set is 0.00149342
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 190
+===> Average AREA**2-loss on training set is 0.00000206
+===> Average AREA**2-loss on validation set is 0.00001991
+===> Average exact area on training set is 0.00101494
+===> Average exact area on validation set is 0.00148222
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 191
+===> Average AREA**2-loss on training set is 0.00000207
+===> Average AREA**2-loss on validation set is 0.00002027
+===> Average exact area on training set is 0.00102033
+===> Average exact area on validation set is 0.00151937
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 192
+===> Average AREA**2-loss on training set is 0.00000204
+===> Average AREA**2-loss on validation set is 0.00001954
+===> Average exact area on training set is 0.00101335
+===> Average exact area on validation set is 0.00147596
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 193
+===> Average AREA**2-loss on training set is 0.00000190
+===> Average AREA**2-loss on validation set is 0.00001918
+===> Average exact area on training set is 0.00099594
+===> Average exact area on validation set is 0.00146758
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 194
+===> Average AREA**2-loss on training set is 0.00000189
+===> Average AREA**2-loss on validation set is 0.00002064
+===> Average exact area on training set is 0.00098959
+===> Average exact area on validation set is 0.00149074
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 195
+===> Average AREA**2-loss on training set is 0.00000192
+===> Average AREA**2-loss on validation set is 0.00002106
+===> Average exact area on training set is 0.00099185
+===> Average exact area on validation set is 0.00150267
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 196
+===> Average AREA**2-loss on training set is 0.00000185
+===> Average AREA**2-loss on validation set is 0.00002009
+===> Average exact area on training set is 0.00098483
+===> Average exact area on validation set is 0.00151245
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 197
+===> Average AREA**2-loss on training set is 0.00000184
+===> Average AREA**2-loss on validation set is 0.00002011
+===> Average exact area on training set is 0.00098523
+===> Average exact area on validation set is 0.00149199
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 198
+===> Average AREA**2-loss on training set is 0.00000188
+===> Average AREA**2-loss on validation set is 0.00002008
+===> Average exact area on training set is 0.00099058
+===> Average exact area on validation set is 0.00149813
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 199
+===> Average AREA**2-loss on training set is 0.00000190
+===> Average AREA**2-loss on validation set is 0.00001947
+===> Average exact area on training set is 0.00099061
+===> Average exact area on validation set is 0.00147247
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 200
+===> Average AREA**2-loss on training set is 0.00000175
+===> Average AREA**2-loss on validation set is 0.00002073
+===> Average exact area on training set is 0.00097162
+===> Average exact area on validation set is 0.00148526
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 201
+===> Average AREA**2-loss on training set is 0.00000181
+===> Average AREA**2-loss on validation set is 0.00001941
+===> Average exact area on training set is 0.00097595
+===> Average exact area on validation set is 0.00148003
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 202
+===> Average AREA**2-loss on training set is 0.00000178
+===> Average AREA**2-loss on validation set is 0.00002020
+===> Average exact area on training set is 0.00097171
+===> Average exact area on validation set is 0.00149508
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 203
+===> Average AREA**2-loss on training set is 0.00000177
+===> Average AREA**2-loss on validation set is 0.00001981
+===> Average exact area on training set is 0.00096742
+===> Average exact area on validation set is 0.00148693
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 204
+===> Average AREA**2-loss on training set is 0.00000178
+===> Average AREA**2-loss on validation set is 0.00001922
+===> Average exact area on training set is 0.00096898
+===> Average exact area on validation set is 0.00149311
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 205
+===> Average AREA**2-loss on training set is 0.00000178
+===> Average AREA**2-loss on validation set is 0.00001958
+===> Average exact area on training set is 0.00097099
+===> Average exact area on validation set is 0.00147368
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 206
+===> Average AREA**2-loss on training set is 0.00000172
+===> Average AREA**2-loss on validation set is 0.00001884
+===> Average exact area on training set is 0.00095986
+===> Average exact area on validation set is 0.00147831
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 207
+===> Average AREA**2-loss on training set is 0.00000165
+===> Average AREA**2-loss on validation set is 0.00001986
+===> Average exact area on training set is 0.00095213
+===> Average exact area on validation set is 0.00148716
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 208
+===> Average AREA**2-loss on training set is 0.00000162
+===> Average AREA**2-loss on validation set is 0.00001854
+===> Average exact area on training set is 0.00094737
+===> Average exact area on validation set is 0.00145786
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 209
+===> Average AREA**2-loss on training set is 0.00000166
+===> Average AREA**2-loss on validation set is 0.00001900
+===> Average exact area on training set is 0.00095459
+===> Average exact area on validation set is 0.00146780
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 210
+===> Average AREA**2-loss on training set is 0.00000163
+===> Average AREA**2-loss on validation set is 0.00001892
+===> Average exact area on training set is 0.00094766
+===> Average exact area on validation set is 0.00146081
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 211
+===> Average AREA**2-loss on training set is 0.00000165
+===> Average AREA**2-loss on validation set is 0.00002004
+===> Average exact area on training set is 0.00094772
+===> Average exact area on validation set is 0.00147393
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 212
+===> Average AREA**2-loss on training set is 0.00000157
+===> Average AREA**2-loss on validation set is 0.00001916
+===> Average exact area on training set is 0.00093754
+===> Average exact area on validation set is 0.00147598
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+
+ => Start train set for EPOCH 213
+===> Average AREA**2-loss on training set is 0.00000158
+===> Average AREA**2-loss on validation set is 0.00001824
+===> Average exact area on training set is 0.00093998
+===> Average exact area on validation set is 0.00145274
+===> Last best AREA**2-loss was 0.00145764 in epoch 179
+Best model copied
+
+ => Start train set for EPOCH 214
+===> Average AREA**2-loss on training set is 0.00000161
+===> Average AREA**2-loss on validation set is 0.00001995
+===> Average exact area on training set is 0.00094118
+===> Average exact area on validation set is 0.00149161
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 215
+===> Average AREA**2-loss on training set is 0.00000158
+===> Average AREA**2-loss on validation set is 0.00001958
+===> Average exact area on training set is 0.00093268
+===> Average exact area on validation set is 0.00147806
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 216
+===> Average AREA**2-loss on training set is 0.00000160
+===> Average AREA**2-loss on validation set is 0.00002111
+===> Average exact area on training set is 0.00093756
+===> Average exact area on validation set is 0.00151270
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 217
+===> Average AREA**2-loss on training set is 0.00000153
+===> Average AREA**2-loss on validation set is 0.00001950
+===> Average exact area on training set is 0.00092892
+===> Average exact area on validation set is 0.00146734
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 218
+===> Average AREA**2-loss on training set is 0.00000142
+===> Average AREA**2-loss on validation set is 0.00001908
+===> Average exact area on training set is 0.00091315
+===> Average exact area on validation set is 0.00147787
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 219
+===> Average AREA**2-loss on training set is 0.00000151
+===> Average AREA**2-loss on validation set is 0.00001937
+===> Average exact area on training set is 0.00092456
+===> Average exact area on validation set is 0.00147694
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 220
+===> Average AREA**2-loss on training set is 0.00000145
+===> Average AREA**2-loss on validation set is 0.00001975
+===> Average exact area on training set is 0.00091764
+===> Average exact area on validation set is 0.00148804
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 221
+===> Average AREA**2-loss on training set is 0.00000140
+===> Average AREA**2-loss on validation set is 0.00001987
+===> Average exact area on training set is 0.00090805
+===> Average exact area on validation set is 0.00150549
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 222
+===> Average AREA**2-loss on training set is 0.00000140
+===> Average AREA**2-loss on validation set is 0.00001875
+===> Average exact area on training set is 0.00090464
+===> Average exact area on validation set is 0.00147955
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 223
+===> Average AREA**2-loss on training set is 0.00000141
+===> Average AREA**2-loss on validation set is 0.00001875
+===> Average exact area on training set is 0.00090886
+===> Average exact area on validation set is 0.00146790
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 224
+===> Average AREA**2-loss on training set is 0.00000138
+===> Average AREA**2-loss on validation set is 0.00001964
+===> Average exact area on training set is 0.00090063
+===> Average exact area on validation set is 0.00149885
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 225
+===> Average AREA**2-loss on training set is 0.00000141
+===> Average AREA**2-loss on validation set is 0.00001905
+===> Average exact area on training set is 0.00090629
+===> Average exact area on validation set is 0.00149195
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 226
+===> Average AREA**2-loss on training set is 0.00000136
+===> Average AREA**2-loss on validation set is 0.00001896
+===> Average exact area on training set is 0.00089869
+===> Average exact area on validation set is 0.00147353
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 227
+===> Average AREA**2-loss on training set is 0.00000133
+===> Average AREA**2-loss on validation set is 0.00001959
+===> Average exact area on training set is 0.00089265
+===> Average exact area on validation set is 0.00147853
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 228
+===> Average AREA**2-loss on training set is 0.00000136
+===> Average AREA**2-loss on validation set is 0.00002087
+===> Average exact area on training set is 0.00089689
+===> Average exact area on validation set is 0.00150731
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 229
+===> Average AREA**2-loss on training set is 0.00000139
+===> Average AREA**2-loss on validation set is 0.00002007
+===> Average exact area on training set is 0.00090032
+===> Average exact area on validation set is 0.00149686
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 230
+===> Average AREA**2-loss on training set is 0.00000133
+===> Average AREA**2-loss on validation set is 0.00001853
+===> Average exact area on training set is 0.00089422
+===> Average exact area on validation set is 0.00145800
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 231
+===> Average AREA**2-loss on training set is 0.00000133
+===> Average AREA**2-loss on validation set is 0.00001982
+===> Average exact area on training set is 0.00089313
+===> Average exact area on validation set is 0.00145990
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 232
+===> Average AREA**2-loss on training set is 0.00000130
+===> Average AREA**2-loss on validation set is 0.00001971
+===> Average exact area on training set is 0.00088557
+===> Average exact area on validation set is 0.00147186
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 233
+===> Average AREA**2-loss on training set is 0.00000133
+===> Average AREA**2-loss on validation set is 0.00001914
+===> Average exact area on training set is 0.00088969
+===> Average exact area on validation set is 0.00145693
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 234
+===> Average AREA**2-loss on training set is 0.00000129
+===> Average AREA**2-loss on validation set is 0.00002022
+===> Average exact area on training set is 0.00088170
+===> Average exact area on validation set is 0.00146938
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 235
+===> Average AREA**2-loss on training set is 0.00000130
+===> Average AREA**2-loss on validation set is 0.00001886
+===> Average exact area on training set is 0.00088517
+===> Average exact area on validation set is 0.00145653
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 236
+===> Average AREA**2-loss on training set is 0.00000130
+===> Average AREA**2-loss on validation set is 0.00001903
+===> Average exact area on training set is 0.00088747
+===> Average exact area on validation set is 0.00145888
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 237
+===> Average AREA**2-loss on training set is 0.00000122
+===> Average AREA**2-loss on validation set is 0.00001909
+===> Average exact area on training set is 0.00087511
+===> Average exact area on validation set is 0.00146611
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 238
+===> Average AREA**2-loss on training set is 0.00000119
+===> Average AREA**2-loss on validation set is 0.00001914
+===> Average exact area on training set is 0.00086951
+===> Average exact area on validation set is 0.00145996
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 239
+===> Average AREA**2-loss on training set is 0.00000125
+===> Average AREA**2-loss on validation set is 0.00001968
+===> Average exact area on training set is 0.00087959
+===> Average exact area on validation set is 0.00147489
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 240
+===> Average AREA**2-loss on training set is 0.00000154
+===> Average AREA**2-loss on validation set is 0.00002685
+===> Average exact area on training set is 0.00089589
+===> Average exact area on validation set is 0.00175534
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 241
+===> Average AREA**2-loss on training set is 0.00000220
+===> Average AREA**2-loss on validation set is 0.00001957
+===> Average exact area on training set is 0.00101531
+===> Average exact area on validation set is 0.00147946
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+
+ => Start train set for EPOCH 242
+===> Average AREA**2-loss on training set is 0.00000138
+===> Average AREA**2-loss on validation set is 0.00001850
+===> Average exact area on training set is 0.00089986
+===> Average exact area on validation set is 0.00144992
+===> Last best AREA**2-loss was 0.00145274 in epoch 213
+Best model copied
+
+ => Start train set for EPOCH 243
+===> Average AREA**2-loss on training set is 0.00000123
+===> Average AREA**2-loss on validation set is 0.00001974
+===> Average exact area on training set is 0.00087404
+===> Average exact area on validation set is 0.00147820
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 244
+===> Average AREA**2-loss on training set is 0.00000116
+===> Average AREA**2-loss on validation set is 0.00001903
+===> Average exact area on training set is 0.00086191
+===> Average exact area on validation set is 0.00147231
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 245
+===> Average AREA**2-loss on training set is 0.00000112
+===> Average AREA**2-loss on validation set is 0.00002056
+===> Average exact area on training set is 0.00085565
+===> Average exact area on validation set is 0.00147663
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 246
+===> Average AREA**2-loss on training set is 0.00000113
+===> Average AREA**2-loss on validation set is 0.00002060
+===> Average exact area on training set is 0.00085503
+===> Average exact area on validation set is 0.00147995
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 247
+===> Average AREA**2-loss on training set is 0.00000109
+===> Average AREA**2-loss on validation set is 0.00002027
+===> Average exact area on training set is 0.00084851
+===> Average exact area on validation set is 0.00149021
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 248
+===> Average AREA**2-loss on training set is 0.00000111
+===> Average AREA**2-loss on validation set is 0.00001869
+===> Average exact area on training set is 0.00085059
+===> Average exact area on validation set is 0.00145359
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 249
+===> Average AREA**2-loss on training set is 0.00000114
+===> Average AREA**2-loss on validation set is 0.00001883
+===> Average exact area on training set is 0.00085332
+===> Average exact area on validation set is 0.00146022
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 250
+===> Average AREA**2-loss on training set is 0.00000116
+===> Average AREA**2-loss on validation set is 0.00002079
+===> Average exact area on training set is 0.00085647
+===> Average exact area on validation set is 0.00149712
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 251
+===> Average AREA**2-loss on training set is 0.00000114
+===> Average AREA**2-loss on validation set is 0.00001942
+===> Average exact area on training set is 0.00085487
+===> Average exact area on validation set is 0.00147750
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 252
+===> Average AREA**2-loss on training set is 0.00000112
+===> Average AREA**2-loss on validation set is 0.00001954
+===> Average exact area on training set is 0.00084854
+===> Average exact area on validation set is 0.00147845
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 253
+===> Average AREA**2-loss on training set is 0.00000110
+===> Average AREA**2-loss on validation set is 0.00001987
+===> Average exact area on training set is 0.00084795
+===> Average exact area on validation set is 0.00148467
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 254
+===> Average AREA**2-loss on training set is 0.00000110
+===> Average AREA**2-loss on validation set is 0.00002006
+===> Average exact area on training set is 0.00084430
+===> Average exact area on validation set is 0.00146777
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 255
+===> Average AREA**2-loss on training set is 0.00000105
+===> Average AREA**2-loss on validation set is 0.00002082
+===> Average exact area on training set is 0.00083839
+===> Average exact area on validation set is 0.00149824
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 256
+===> Average AREA**2-loss on training set is 0.00000114
+===> Average AREA**2-loss on validation set is 0.00002027
+===> Average exact area on training set is 0.00085195
+===> Average exact area on validation set is 0.00146952
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 257
+===> Average AREA**2-loss on training set is 0.00000109
+===> Average AREA**2-loss on validation set is 0.00001980
+===> Average exact area on training set is 0.00084320
+===> Average exact area on validation set is 0.00147340
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 258
+===> Average AREA**2-loss on training set is 0.00000106
+===> Average AREA**2-loss on validation set is 0.00001948
+===> Average exact area on training set is 0.00083585
+===> Average exact area on validation set is 0.00148155
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 259
+===> Average AREA**2-loss on training set is 0.00000110
+===> Average AREA**2-loss on validation set is 0.00001968
+===> Average exact area on training set is 0.00084912
+===> Average exact area on validation set is 0.00146965
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 260
+===> Average AREA**2-loss on training set is 0.00000108
+===> Average AREA**2-loss on validation set is 0.00002031
+===> Average exact area on training set is 0.00083906
+===> Average exact area on validation set is 0.00146395
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 261
+===> Average AREA**2-loss on training set is 0.00000106
+===> Average AREA**2-loss on validation set is 0.00001906
+===> Average exact area on training set is 0.00083711
+===> Average exact area on validation set is 0.00146021
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 262
+===> Average AREA**2-loss on training set is 0.00000103
+===> Average AREA**2-loss on validation set is 0.00002032
+===> Average exact area on training set is 0.00083291
+===> Average exact area on validation set is 0.00147531
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 263
+===> Average AREA**2-loss on training set is 0.00000101
+===> Average AREA**2-loss on validation set is 0.00002001
+===> Average exact area on training set is 0.00083017
+===> Average exact area on validation set is 0.00148974
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 264
+===> Average AREA**2-loss on training set is 0.00000100
+===> Average AREA**2-loss on validation set is 0.00001934
+===> Average exact area on training set is 0.00082522
+===> Average exact area on validation set is 0.00145904
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 265
+===> Average AREA**2-loss on training set is 0.00000103
+===> Average AREA**2-loss on validation set is 0.00001898
+===> Average exact area on training set is 0.00083220
+===> Average exact area on validation set is 0.00146704
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 266
+===> Average AREA**2-loss on training set is 0.00000101
+===> Average AREA**2-loss on validation set is 0.00002025
+===> Average exact area on training set is 0.00082712
+===> Average exact area on validation set is 0.00147753
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 267
+===> Average AREA**2-loss on training set is 0.00000101
+===> Average AREA**2-loss on validation set is 0.00001955
+===> Average exact area on training set is 0.00082441
+===> Average exact area on validation set is 0.00146763
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 268
+===> Average AREA**2-loss on training set is 0.00000099
+===> Average AREA**2-loss on validation set is 0.00001954
+===> Average exact area on training set is 0.00082226
+===> Average exact area on validation set is 0.00145381
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 269
+===> Average AREA**2-loss on training set is 0.00000098
+===> Average AREA**2-loss on validation set is 0.00001994
+===> Average exact area on training set is 0.00082014
+===> Average exact area on validation set is 0.00147734
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 270
+===> Average AREA**2-loss on training set is 0.00000098
+===> Average AREA**2-loss on validation set is 0.00001932
+===> Average exact area on training set is 0.00082237
+===> Average exact area on validation set is 0.00145746
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 271
+===> Average AREA**2-loss on training set is 0.00000100
+===> Average AREA**2-loss on validation set is 0.00001957
+===> Average exact area on training set is 0.00082407
+===> Average exact area on validation set is 0.00146960
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 272
+===> Average AREA**2-loss on training set is 0.00000096
+===> Average AREA**2-loss on validation set is 0.00001994
+===> Average exact area on training set is 0.00081517
+===> Average exact area on validation set is 0.00147802
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 273
+===> Average AREA**2-loss on training set is 0.00000094
+===> Average AREA**2-loss on validation set is 0.00002063
+===> Average exact area on training set is 0.00081114
+===> Average exact area on validation set is 0.00147686
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 274
+===> Average AREA**2-loss on training set is 0.00000099
+===> Average AREA**2-loss on validation set is 0.00002023
+===> Average exact area on training set is 0.00082311
+===> Average exact area on validation set is 0.00148226
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 275
+===> Average AREA**2-loss on training set is 0.00000095
+===> Average AREA**2-loss on validation set is 0.00001983
+===> Average exact area on training set is 0.00081791
+===> Average exact area on validation set is 0.00147008
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 276
+===> Average AREA**2-loss on training set is 0.00000094
+===> Average AREA**2-loss on validation set is 0.00001945
+===> Average exact area on training set is 0.00081092
+===> Average exact area on validation set is 0.00145696
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+
+ => Start train set for EPOCH 277
+===> Average AREA**2-loss on training set is 0.00000093
+===> Average AREA**2-loss on validation set is 0.00001892
+===> Average exact area on training set is 0.00080923
+===> Average exact area on validation set is 0.00144587
+===> Last best AREA**2-loss was 0.00144992 in epoch 242
+Best model copied
+
+ => Start train set for EPOCH 278
+===> Average AREA**2-loss on training set is 0.00000094
+===> Average AREA**2-loss on validation set is 0.00001906
+===> Average exact area on training set is 0.00080986
+===> Average exact area on validation set is 0.00145299
+===> Last best AREA**2-loss was 0.00144587 in epoch 277
+
+ => Start train set for EPOCH 279
+===> Average AREA**2-loss on training set is 0.00000094
+===> Average AREA**2-loss on validation set is 0.00001866
+===> Average exact area on training set is 0.00081422
+===> Average exact area on validation set is 0.00145442
+===> Last best AREA**2-loss was 0.00144587 in epoch 277
+
+ => Start train set for EPOCH 280
+===> Average AREA**2-loss on training set is 0.00000090
+===> Average AREA**2-loss on validation set is 0.00001889
+===> Average exact area on training set is 0.00080283
+===> Average exact area on validation set is 0.00144930
+===> Last best AREA**2-loss was 0.00144587 in epoch 277
+
+ => Start train set for EPOCH 281
+===> Average AREA**2-loss on training set is 0.00000092
+===> Average AREA**2-loss on validation set is 0.00001924
+===> Average exact area on training set is 0.00080742
+===> Average exact area on validation set is 0.00144566
+===> Last best AREA**2-loss was 0.00144587 in epoch 277
+Best model copied
+
+ => Start train set for EPOCH 282
+===> Average AREA**2-loss on training set is 0.00000092
+===> Average AREA**2-loss on validation set is 0.00002032
+===> Average exact area on training set is 0.00080493
+===> Average exact area on validation set is 0.00149375
+===> Last best AREA**2-loss was 0.00144566 in epoch 281
+
+ => Start train set for EPOCH 283
+===> Average AREA**2-loss on training set is 0.00000092
+===> Average AREA**2-loss on validation set is 0.00002032
+===> Average exact area on training set is 0.00080346
+===> Average exact area on validation set is 0.00145806
+===> Last best AREA**2-loss was 0.00144566 in epoch 281
+
+ => Start train set for EPOCH 284
+===> Average AREA**2-loss on training set is 0.00000092
+===> Average AREA**2-loss on validation set is 0.00001951
+===> Average exact area on training set is 0.00080534
+===> Average exact area on validation set is 0.00146059
+===> Last best AREA**2-loss was 0.00144566 in epoch 281
+
+ => Start train set for EPOCH 285
+===> Average AREA**2-loss on training set is 0.00000089
+===> Average AREA**2-loss on validation set is 0.00002076
+===> Average exact area on training set is 0.00079740
+===> Average exact area on validation set is 0.00147449
+===> Last best AREA**2-loss was 0.00144566 in epoch 281
+
+ => Start train set for EPOCH 286
+===> Average AREA**2-loss on training set is 0.00000090
+===> Average AREA**2-loss on validation set is 0.00001988
+===> Average exact area on training set is 0.00080557
+===> Average exact area on validation set is 0.00144874
+===> Last best AREA**2-loss was 0.00144566 in epoch 281
+
+ => Start train set for EPOCH 287
+===> Average AREA**2-loss on training set is 0.00000087
+===> Average AREA**2-loss on validation set is 0.00002124
+===> Average exact area on training set is 0.00079401
+===> Average exact area on validation set is 0.00148096
+===> Last best AREA**2-loss was 0.00144566 in epoch 281
+
+ => Start train set for EPOCH 288
+===> Average AREA**2-loss on training set is 0.00000089
+===> Average AREA**2-loss on validation set is 0.00002008
+===> Average exact area on training set is 0.00079891
+===> Average exact area on validation set is 0.00145526
+===> Last best AREA**2-loss was 0.00144566 in epoch 281
+
+ => Start train set for EPOCH 289
+===> Average AREA**2-loss on training set is 0.00000089
+===> Average AREA**2-loss on validation set is 0.00001959
+===> Average exact area on training set is 0.00079783
+===> Average exact area on validation set is 0.00144981
+===> Last best AREA**2-loss was 0.00144566 in epoch 281
+
+ => Start train set for EPOCH 290
+===> Average AREA**2-loss on training set is 0.00000084
+===> Average AREA**2-loss on validation set is 0.00002036
+===> Average exact area on training set is 0.00078758
+===> Average exact area on validation set is 0.00147548
+===> Last best AREA**2-loss was 0.00144566 in epoch 281
+
+ => Start train set for EPOCH 291
+===> Average AREA**2-loss on training set is 0.00000084
+===> Average AREA**2-loss on validation set is 0.00001943
+===> Average exact area on training set is 0.00078794
+===> Average exact area on validation set is 0.00147190
+===> Last best AREA**2-loss was 0.00144566 in epoch 281
+
+ => Start train set for EPOCH 292
+===> Average AREA**2-loss on training set is 0.00000081
+===> Average AREA**2-loss on validation set is 0.00001930
+===> Average exact area on training set is 0.00078369
+===> Average exact area on validation set is 0.00146291
+===> Last best AREA**2-loss was 0.00144566 in epoch 281
+
+ => Start train set for EPOCH 293
+===> Average AREA**2-loss on training set is 0.00000084
+===> Average AREA**2-loss on validation set is 0.00001895
+===> Average exact area on training set is 0.00078767
+===> Average exact area on validation set is 0.00145675
+===> Last best AREA**2-loss was 0.00144566 in epoch 281
+
+ => Start train set for EPOCH 294
+===> Average AREA**2-loss on training set is 0.00000084
+===> Average AREA**2-loss on validation set is 0.00001924
+===> Average exact area on training set is 0.00079114
+===> Average exact area on validation set is 0.00145499
+===> Last best AREA**2-loss was 0.00144566 in epoch 281
+
+ => Start train set for EPOCH 295
+===> Average AREA**2-loss on training set is 0.00000083
+===> Average AREA**2-loss on validation set is 0.00001991
+===> Average exact area on training set is 0.00078586
+===> Average exact area on validation set is 0.00147037
+===> Last best AREA**2-loss was 0.00144566 in epoch 281
+
+ => Start train set for EPOCH 296
+===> Average AREA**2-loss on training set is 0.00000083
+===> Average AREA**2-loss on validation set is 0.00001905
+===> Average exact area on training set is 0.00078705
+===> Average exact area on validation set is 0.00145311
+===> Last best AREA**2-loss was 0.00144566 in epoch 281
+
+ => Start train set for EPOCH 297
+===> Average AREA**2-loss on training set is 0.00000081
+===> Average AREA**2-loss on validation set is 0.00001892
+===> Average exact area on training set is 0.00078073
+===> Average exact area on validation set is 0.00145148
+===> Last best AREA**2-loss was 0.00144566 in epoch 281
+
+ => Start train set for EPOCH 298
+===> Average AREA**2-loss on training set is 0.00000080
+===> Average AREA**2-loss on validation set is 0.00001988
+===> Average exact area on training set is 0.00077762
+===> Average exact area on validation set is 0.00147255
+===> Last best AREA**2-loss was 0.00144566 in epoch 281
+
+ => Start train set for EPOCH 299
+===> Average AREA**2-loss on training set is 0.00000078
+===> Average AREA**2-loss on validation set is 0.00002028
+===> Average exact area on training set is 0.00077426
+===> Average exact area on validation set is 0.00145367
+===> Last best AREA**2-loss was 0.00144566 in epoch 281
+
+ => Start train set for EPOCH 300
+===> Average AREA**2-loss on training set is 0.00000079
+===> Average AREA**2-loss on validation set is 0.00001953
+===> Average exact area on training set is 0.00077553
+===> Average exact area on validation set is 0.00145882
+===> Last best AREA**2-loss was 0.00144566 in epoch 281
+
+ => Start train set for EPOCH 301
+===> Average AREA**2-loss on training set is 0.00000081
+===> Average AREA**2-loss on validation set is 0.00001881
+===> Average exact area on training set is 0.00078003
+===> Average exact area on validation set is 0.00144376
+===> Last best AREA**2-loss was 0.00144566 in epoch 281
+Best model copied
+
+ => Start train set for EPOCH 302
+===> Average AREA**2-loss on training set is 0.00000081
+===> Average AREA**2-loss on validation set is 0.00001902
+===> Average exact area on training set is 0.00077844
+===> Average exact area on validation set is 0.00145482
+===> Last best AREA**2-loss was 0.00144376 in epoch 301
+
+ => Start train set for EPOCH 303
+===> Average AREA**2-loss on training set is 0.00000083
+===> Average AREA**2-loss on validation set is 0.00001940
+===> Average exact area on training set is 0.00078427
+===> Average exact area on validation set is 0.00145536
+===> Last best AREA**2-loss was 0.00144376 in epoch 301
+
+ => Start train set for EPOCH 304
+===> Average AREA**2-loss on training set is 0.00000080
+===> Average AREA**2-loss on validation set is 0.00001910
+===> Average exact area on training set is 0.00077751
+===> Average exact area on validation set is 0.00144759
+===> Last best AREA**2-loss was 0.00144376 in epoch 301
+
+ => Start train set for EPOCH 305
+===> Average AREA**2-loss on training set is 0.00000078
+===> Average AREA**2-loss on validation set is 0.00001960
+===> Average exact area on training set is 0.00077327
+===> Average exact area on validation set is 0.00145592
+===> Last best AREA**2-loss was 0.00144376 in epoch 301
+
+ => Start train set for EPOCH 306
+===> Average AREA**2-loss on training set is 0.00000077
+===> Average AREA**2-loss on validation set is 0.00001920
+===> Average exact area on training set is 0.00077035
+===> Average exact area on validation set is 0.00144563
+===> Last best AREA**2-loss was 0.00144376 in epoch 301
+
+ => Start train set for EPOCH 307
+===> Average AREA**2-loss on training set is 0.00000077
+===> Average AREA**2-loss on validation set is 0.00001964
+===> Average exact area on training set is 0.00077096
+===> Average exact area on validation set is 0.00143937
+===> Last best AREA**2-loss was 0.00144376 in epoch 301
+Best model copied
+
+ => Start train set for EPOCH 308
+===> Average AREA**2-loss on training set is 0.00000075
+===> Average AREA**2-loss on validation set is 0.00001956
+===> Average exact area on training set is 0.00076899
+===> Average exact area on validation set is 0.00144660
+===> Last best AREA**2-loss was 0.00143937 in epoch 307
+
+ => Start train set for EPOCH 309
+===> Average AREA**2-loss on training set is 0.00000076
+===> Average AREA**2-loss on validation set is 0.00001920
+===> Average exact area on training set is 0.00076825
+===> Average exact area on validation set is 0.00144160
+===> Last best AREA**2-loss was 0.00143937 in epoch 307
+
+ => Start train set for EPOCH 310
+===> Average AREA**2-loss on training set is 0.00000078
+===> Average AREA**2-loss on validation set is 0.00001848
+===> Average exact area on training set is 0.00077333
+===> Average exact area on validation set is 0.00143409
+===> Last best AREA**2-loss was 0.00143937 in epoch 307
+Best model copied
+
+ => Start train set for EPOCH 311
+===> Average AREA**2-loss on training set is 0.00000072
+===> Average AREA**2-loss on validation set is 0.00001886
+===> Average exact area on training set is 0.00075946
+===> Average exact area on validation set is 0.00143715
+===> Last best AREA**2-loss was 0.00143409 in epoch 310
+
+ => Start train set for EPOCH 312
+===> Average AREA**2-loss on training set is 0.00000076
+===> Average AREA**2-loss on validation set is 0.00001970
+===> Average exact area on training set is 0.00076776
+===> Average exact area on validation set is 0.00145223
+===> Last best AREA**2-loss was 0.00143409 in epoch 310
+
+ => Start train set for EPOCH 313
+===> Average AREA**2-loss on training set is 0.00000074
+===> Average AREA**2-loss on validation set is 0.00001936
+===> Average exact area on training set is 0.00076279
+===> Average exact area on validation set is 0.00144041
+===> Last best AREA**2-loss was 0.00143409 in epoch 310
+
+ => Start train set for EPOCH 314
+===> Average AREA**2-loss on training set is 0.00000075
+===> Average AREA**2-loss on validation set is 0.00001913
+===> Average exact area on training set is 0.00076824
+===> Average exact area on validation set is 0.00145824
+===> Last best AREA**2-loss was 0.00143409 in epoch 310
+
+ => Start train set for EPOCH 315
+===> Average AREA**2-loss on training set is 0.00000073
+===> Average AREA**2-loss on validation set is 0.00001927
+===> Average exact area on training set is 0.00075877
+===> Average exact area on validation set is 0.00144292
+===> Last best AREA**2-loss was 0.00143409 in epoch 310
+
+ => Start train set for EPOCH 316
+===> Average AREA**2-loss on training set is 0.00000074
+===> Average AREA**2-loss on validation set is 0.00001931
+===> Average exact area on training set is 0.00076362
+===> Average exact area on validation set is 0.00143840
+===> Last best AREA**2-loss was 0.00143409 in epoch 310
+
+ => Start train set for EPOCH 317
+===> Average AREA**2-loss on training set is 0.00000075
+===> Average AREA**2-loss on validation set is 0.00002014
+===> Average exact area on training set is 0.00076565
+===> Average exact area on validation set is 0.00146234
+===> Last best AREA**2-loss was 0.00143409 in epoch 310
+
+ => Start train set for EPOCH 318
+===> Average AREA**2-loss on training set is 0.00000074
+===> Average AREA**2-loss on validation set is 0.00001973
+===> Average exact area on training set is 0.00076110
+===> Average exact area on validation set is 0.00143755
+===> Last best AREA**2-loss was 0.00143409 in epoch 310
+
+ => Start train set for EPOCH 319
+===> Average AREA**2-loss on training set is 0.00000071
+===> Average AREA**2-loss on validation set is 0.00001930
+===> Average exact area on training set is 0.00075604
+===> Average exact area on validation set is 0.00144773
+===> Last best AREA**2-loss was 0.00143409 in epoch 310
+
+ => Start train set for EPOCH 320
+===> Average AREA**2-loss on training set is 0.00000073
+===> Average AREA**2-loss on validation set is 0.00001928
+===> Average exact area on training set is 0.00075733
+===> Average exact area on validation set is 0.00142303
+===> Last best AREA**2-loss was 0.00143409 in epoch 310
+Best model copied
+
+ => Start train set for EPOCH 321
+===> Average AREA**2-loss on training set is 0.00000070
+===> Average AREA**2-loss on validation set is 0.00001954
+===> Average exact area on training set is 0.00075515
+===> Average exact area on validation set is 0.00143521
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 322
+===> Average AREA**2-loss on training set is 0.00000071
+===> Average AREA**2-loss on validation set is 0.00001994
+===> Average exact area on training set is 0.00076078
+===> Average exact area on validation set is 0.00144711
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 323
+===> Average AREA**2-loss on training set is 0.00000073
+===> Average AREA**2-loss on validation set is 0.00002000
+===> Average exact area on training set is 0.00075845
+===> Average exact area on validation set is 0.00146509
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 324
+===> Average AREA**2-loss on training set is 0.00000071
+===> Average AREA**2-loss on validation set is 0.00001954
+===> Average exact area on training set is 0.00075518
+===> Average exact area on validation set is 0.00144846
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 325
+===> Average AREA**2-loss on training set is 0.00000070
+===> Average AREA**2-loss on validation set is 0.00002023
+===> Average exact area on training set is 0.00075259
+===> Average exact area on validation set is 0.00145042
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 326
+===> Average AREA**2-loss on training set is 0.00000066
+===> Average AREA**2-loss on validation set is 0.00001934
+===> Average exact area on training set is 0.00074148
+===> Average exact area on validation set is 0.00143855
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 327
+===> Average AREA**2-loss on training set is 0.00000068
+===> Average AREA**2-loss on validation set is 0.00001964
+===> Average exact area on training set is 0.00074918
+===> Average exact area on validation set is 0.00144575
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 328
+===> Average AREA**2-loss on training set is 0.00000069
+===> Average AREA**2-loss on validation set is 0.00002028
+===> Average exact area on training set is 0.00075209
+===> Average exact area on validation set is 0.00146023
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 329
+===> Average AREA**2-loss on training set is 0.00000066
+===> Average AREA**2-loss on validation set is 0.00002012
+===> Average exact area on training set is 0.00074568
+===> Average exact area on validation set is 0.00144827
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 330
+===> Average AREA**2-loss on training set is 0.00000063
+===> Average AREA**2-loss on validation set is 0.00001970
+===> Average exact area on training set is 0.00073746
+===> Average exact area on validation set is 0.00144527
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 331
+===> Average AREA**2-loss on training set is 0.00000065
+===> Average AREA**2-loss on validation set is 0.00002000
+===> Average exact area on training set is 0.00074037
+===> Average exact area on validation set is 0.00145245
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 332
+===> Average AREA**2-loss on training set is 0.00000068
+===> Average AREA**2-loss on validation set is 0.00002026
+===> Average exact area on training set is 0.00074617
+===> Average exact area on validation set is 0.00145114
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 333
+===> Average AREA**2-loss on training set is 0.00000069
+===> Average AREA**2-loss on validation set is 0.00002073
+===> Average exact area on training set is 0.00074968
+===> Average exact area on validation set is 0.00146934
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 334
+===> Average AREA**2-loss on training set is 0.00000068
+===> Average AREA**2-loss on validation set is 0.00001981
+===> Average exact area on training set is 0.00074714
+===> Average exact area on validation set is 0.00143625
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 335
+===> Average AREA**2-loss on training set is 0.00000066
+===> Average AREA**2-loss on validation set is 0.00001983
+===> Average exact area on training set is 0.00074214
+===> Average exact area on validation set is 0.00144461
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 336
+===> Average AREA**2-loss on training set is 0.00000066
+===> Average AREA**2-loss on validation set is 0.00002043
+===> Average exact area on training set is 0.00074256
+===> Average exact area on validation set is 0.00145520
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 337
+===> Average AREA**2-loss on training set is 0.00000066
+===> Average AREA**2-loss on validation set is 0.00002067
+===> Average exact area on training set is 0.00074182
+===> Average exact area on validation set is 0.00144773
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 338
+===> Average AREA**2-loss on training set is 0.00000065
+===> Average AREA**2-loss on validation set is 0.00002182
+===> Average exact area on training set is 0.00073963
+===> Average exact area on validation set is 0.00146489
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 339
+===> Average AREA**2-loss on training set is 0.00000065
+===> Average AREA**2-loss on validation set is 0.00002075
+===> Average exact area on training set is 0.00074088
+===> Average exact area on validation set is 0.00145972
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 340
+===> Average AREA**2-loss on training set is 0.00000066
+===> Average AREA**2-loss on validation set is 0.00002013
+===> Average exact area on training set is 0.00074307
+===> Average exact area on validation set is 0.00144899
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 341
+===> Average AREA**2-loss on training set is 0.00000064
+===> Average AREA**2-loss on validation set is 0.00002100
+===> Average exact area on training set is 0.00073411
+===> Average exact area on validation set is 0.00148377
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 342
+===> Average AREA**2-loss on training set is 0.00000065
+===> Average AREA**2-loss on validation set is 0.00002239
+===> Average exact area on training set is 0.00073949
+===> Average exact area on validation set is 0.00147661
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 343
+===> Average AREA**2-loss on training set is 0.00000065
+===> Average AREA**2-loss on validation set is 0.00002017
+===> Average exact area on training set is 0.00073893
+===> Average exact area on validation set is 0.00146464
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 344
+===> Average AREA**2-loss on training set is 0.00000065
+===> Average AREA**2-loss on validation set is 0.00002116
+===> Average exact area on training set is 0.00074055
+===> Average exact area on validation set is 0.00145287
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 345
+===> Average AREA**2-loss on training set is 0.00000063
+===> Average AREA**2-loss on validation set is 0.00002044
+===> Average exact area on training set is 0.00073479
+===> Average exact area on validation set is 0.00143653
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 346
+===> Average AREA**2-loss on training set is 0.00000060
+===> Average AREA**2-loss on validation set is 0.00002031
+===> Average exact area on training set is 0.00072743
+===> Average exact area on validation set is 0.00144109
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 347
+===> Average AREA**2-loss on training set is 0.00000062
+===> Average AREA**2-loss on validation set is 0.00002080
+===> Average exact area on training set is 0.00072926
+===> Average exact area on validation set is 0.00143991
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 348
+===> Average AREA**2-loss on training set is 0.00000063
+===> Average AREA**2-loss on validation set is 0.00001963
+===> Average exact area on training set is 0.00073032
+===> Average exact area on validation set is 0.00143969
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 349
+===> Average AREA**2-loss on training set is 0.00000063
+===> Average AREA**2-loss on validation set is 0.00002016
+===> Average exact area on training set is 0.00073680
+===> Average exact area on validation set is 0.00145318
+===> Last best AREA**2-loss was 0.00142303 in epoch 320
+
+ => Start train set for EPOCH 350
+===> Average AREA**2-loss on training set is 0.00000061
+===> Average AREA**2-loss on validation set is 0.00001973
+===> Average exact area on training set is 0.00072777
+===> Average exact area on validation set is 0.00143948
+===> Last best AREA**2-loss was 0.00142303 in epoch 320

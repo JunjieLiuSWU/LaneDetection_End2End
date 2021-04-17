@@ -1,0 +1,802 @@
+=> loading checkpoint '3'
+=> loaded checkpoint '3' (epoch 4)
+========================================
+Args:Namespace(activation_layer='square', activation_net='relu', batch_size=8, channels_in=3, clas=False, clip_grad_norm=0, crop_size=80, cudnn=True, dataset='lane_detection', end_to_end=True, evaluate=False, flip_on=False, gamma=0.0, gt_dir='/home/ljj/DATASET/ground_truth', image_dir='/home/ljj/DATASET/images', json_file='Labels/Curve_parameters.json', layers=18, learning_rate=0.0001, list=[954, 2789], loss_policy='area', lr_decay=False, lr_decay_iters=30, lr_policy=None, mask_percentage=0.3, mod='erfnet', nclasses=2, nepochs=350, niter=50, niter_decay=400, no_cuda=False, no_dropout=False, no_ortho=False, no_tb=True, norm='batch', num_train=2535, nworkers=8, optimizer='adam', order=2, pool=True, pretrain_epochs=20, pretrained=False, print_freq=500, reg_ls=0, resize=256, resume='3', save_freq=500, save_path='Saved/Mod_erfnet_opt_adam_loss_area_lr_0.0001_batch_8_end2end_True_lanes_2_resize_256_pretrainFalse_clasFalse', split_percentage=0.2, start_epoch=4, test_mode=False, use_cholesky=False, weight_class=1, weight_decay=0, weight_fit=1, weight_funct='none', weight_init='kaiming', weight_seg=30)
+========================================
+Init model: 'erfnet'
+Number of parameters in model ERFNET is 2.063M
+
+ => Start train set for EPOCH 5
+Batch with idx [  34  640 2045   35  895 1698  320 1804] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 629 2572  259 2514 1953 2091  439   78] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1827 1403 2207 1228  624  994  780   51] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 385  972 2474 1280 1987  961  797 2484] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 665  910 1999 1575  437 1157  139 1582] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 197 1710  927  930 2440   11  321  332] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1411  353 1681 2455  750 2423 1167   47] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1255  347  491 1745 2263 1709  976 1076] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 676 2537  740  584 2276 1081 1199 1037] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2118 1645 2260  944 1206 2503 1056 2357] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1803 1190 1695   46 1768 2067  310   59] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1633 1304 1551   53  945  592 1963 1367] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1320 1470 1822 1608  934 1125 1240  196] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1910  710 2291  449  455 1261 1336  625] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2343   67  508 2093 1596 1183 1473   24] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 980 1208    1 1994  368 1174 1646 1068] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2162 1486  729 2339 1171 2205 2258  582] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 803 2544 1561 1297 1843 2314  154  206] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2101  213 1279  309    3 1262 1703  251] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2488 1590 2361  668  792 1334 2414 1838] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1309 2336  865 1202 1743 1152  250 2451] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2182 1008  728 2604 2188  846 1867 2619] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 519 1518  576  722 1310  822 1258  204] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2242 1118 2380  483  365  245  184  742] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1777  826 1415  104 1257 1143 1029  897] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2160  639 1402 1752 2663 1108   38 1880] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1314  484   19 1161 2402 2398 1291 2217] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1109 1548 2143 1876  423 1955 2344  168] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 818   62  395 1713 1480  312 1657 2167] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2132  301 1263 1097 1883 2272  982 1031] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 375  280 1026 1897 2657  738  641  726] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2103 1359 2027  938 2055 1531  140  226] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1337 2250  718 2022  471 1717 2639  339] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1526 2124 1267   20 1508 1417  542 1265] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 107   88 2164  609 2506   72  861  632] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1862  255 2201 1333 1552  144   54 2191] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1664  275 1921 2535  517 1251 1874   12] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 777 1234  899  716  257 2457 2388  486] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2106 2390 1069 2018 1414 2332  595  604] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2195 2125 1292 2196   92 1407 1750  675] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 175  294  827 2400 1237  631  796 1547] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1241 1034 2228  157  693 1361 1660   82] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1244 2267 1784 1123 1378  933  557  422] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 967 2308 2432   81  562 2236 2617 2033] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 384 1117 1927  762 2294  317 2615 1679] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1612  263  122  106  561  188  232 1060] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 937  987   33  597 1239 1396  633 1641] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 689 1439  608 2130 2266  262 1697 1113] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2659 1589 1868 1088 2247  413 1149 1510] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1256 1977 1980 1172 1168 1950  127  272] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1816 2058 1541    4 1295  148  111  224] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 166  687  350  176 1625   16  891 2569] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 751 1323    0 2409  834 1440 1989  492] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 436 1406  684 1293  993 1696 2468  299] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 594 2353  398 2403 1904 1642  602 2539] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1191 1115  457 1408  158  215 2102   61] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1370 1493 2630 1943  785 1077  755 1271] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1968 2397 2161 1550 2523    9  469 2662] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1212  527 1387  319 1238    5 1809  906] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1506 2230 2111  481 1643  965   23 1992] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1282  954 2054 1776 2123 1085  474  406] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1583  887  677 2536  520 2116  472 2566] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 975  418 1605  694  380 2025 1568 1179] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 468  699 1243 2183  551 1604 1692 1058] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 178 2607 2315 1427 1416  841 1434 1676] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2039 2326  147 2112 1002 2511 1871 2157] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2363  591 2013  626 2047 1677  765 1207] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 152 1321  659 2299 1398 1096 2434 1372] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 936  360 2394  912 2602  311 1835 1362] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 863 1120  951 1706 1597 1665  494  143] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 207 1759  401  623 1093 2532 1557 2573] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2408 1446   96  849 2340  159 1018 1975] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1059  417 2137 2005 1330 2035 1598 2467] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 193 1638 2464 1808  799 1810   97  529] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2620  621 2377  165 1382 2545 2293  162] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 840 2082  616  654  698 2338  610 1988] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [  55  198  565  881 2559 2453 2114  479] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2652  959 1730 2610 1721 1737 2431  153] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1700 2360  737  497 2355 2071 1025  756] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 266 1507  877 1559 1877  349 1851 1226] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 926 1110 1004 2011 2074 1757  390 1350] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2307  786  941  231 1556 1957 1666 2368] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [  87  920 1050 2574  681 1005 1186  438] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2375  221  568 2612  137 2661 1162 1094] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 647 1685 1091 1941 2465  713 2107 2485] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 261 2088  248 1369  706  986 2570 2305] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 853 2505  274 2379 1774  482  330  855] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 515 2213 2556 1614  794  817 2369 2491] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2454  373 1462  749 1385 2387 2085   79] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 192  878 2518  734 1102 2084  946  108] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 180 2456 2475 1886  442 2321 1375  833] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1502  536  450  779 2002 1447 2502 1651] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2034 2442  745 2582 2410 2304 2150  761] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1821 1920 1027 1193 1073 1846 1916 1965] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [  74 1570  651 2528  691 2041 2288 2510] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1015 2643  940 2141  812  378 2477  448] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1307 1712  903  209 1996 2255 1869  696] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1490 2245 2563  819  346  216 1456 2618] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1116  732  344 2190  847 1525 1618 2509] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [  77  524 1512 2590 2628 1524 2538  241] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1373 1632 1017 1923  837  717 1805  957] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 288 1823 1545  997 2540  265 1332 1198] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1796 1254 1675 2626 2090 1021   70 2445] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 291 2303  185  432 1276 2406   14 1184] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 673 2073 1067 1939 2235 1195  931  607] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1178 1888 2489  129  194 2187  371 2438] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 876 2135 1672 2306  298 1747 2180 1793] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1013   43  778 2233 1902  723  549  351] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 458  744  354 1357 1889 1028 1560  130] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1305 2221 1611 1273  535 1870  678 1344] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 656  118 1905  618 1532 1016 1648 2134] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1079  768  858 1289 1670 1825  564 2023] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1429 1476 2428  953  463 2629 1328 1400] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 268  943  391 2015  345 1432  911 1126] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2203   85 1338  334 1000 1637  278 1736] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 922  244 1200 1947 1086 1926  814 2061] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 686   66 1210 1654 1799 1984  721 1236] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 719 2608  810 2597  915 1683  962  473] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1887  662  341  243 1214  690 2248  990] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1584 1911 1702 2419  297 2109  598 1865] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2198 1274 2186  316  650 1769  670 2478] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 546  409 2558  808  567  217 1505 1264] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2214 1266 2008 1165  357  126  264 2104] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2534 2557  712 2239  295 1619 2351  160] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 467  636 2656 1993 1802 2458 1405 2316] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 236 1818 2371 1797 2461 1891 1913 2633] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 998 1043  501  661 1908  842 2285  873] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 477   15 2318 1356  605 1779 1663 1858] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 161  202  622 2113  132 1033 1443 2251] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 854 1586 1045  893 1932 2324 1622 1504] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1390 2605  606  788  186 1833 2494 2280] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2147 1166 1690 2425 1475   13 1395 1617] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2580  614  133 1623 1296  583  109 1039] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 451 2177  362  769 1311  223  727 2030] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 879  443  325 1147 1340 2500  555  771] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 612  620  649  811 1418 1122  773 2524] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2588  237 1995 1354 2322  789  269 2614] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 464  181 1483 1006 2415 1538 1840 2249] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 480  872  733 1158  566 2237  558 1343] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1837 2166 2624  304 1355 1973  290  279] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2330 1491 2412 2264 1062 1401 1824 1520] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2504 1791  376 2144  793 1634 1420  389] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1319 1131 1516 1133 2148 1030  102 2437] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 790 1848  578 2053 1906 2297 1495 2508] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2070  315  983 2120 2218  400  415 1312] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1413  666  882  823 1845 1585 1103 1216] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 379  702 2499   65 1322 2599  892 1754] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 306 1007  554 2024  387  663 2646 2495] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2621 2289 1464   95 1095 1928 2021  775] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 739  969 1010 1135 2265  282  427 1571] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [  22  916 1620 1020 1098 1044  200 1742] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 802 2296 2086  511 1856 1530 2555   76] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 516  292  239  996 1468  909  757  874] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1782   18 1594  333  984  617 1422 1628] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1151 1394  531 1090  905 1494 2512 2452] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 326 2208 1820  506 2638  509  871  925] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 500 1105  875 2493 2050  456  338 2349] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1366  525  563  635 2469 1847 1137 2585] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1815 1386  289  155 1829  992  569  886] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2232 1163 1325 1997 1175   71  327  902] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1762  939 1875 1182 1223 1437  167 2399] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 896 2365 1286  230  212 1501  394 1169] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1775  534  402  337 1430 2016 2579 2609] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2561 2300 1931  868 1801  149 1894 2309] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1800 1014 1285  503 1971  234 2139  960] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 921 1075 2594  932 1180 2287 1121  890] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1114  913  774 1699 2490  560  214 1986] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 748  528 1215 1047 1580  864 1528 1687] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1435 1711  238 1071 1981 1772 2328 2222] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1187 2078 1621 2284 2096 2199 2225  880] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 407 1739  397 1412 2246  559  800 1042] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2348  648 2117  493  454 1232  589 1991] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2165 1960 1783 2333 2327 2427 2560 2359] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 156  782 1119 2592  630 2254 1969  151] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 119  308 1072 1392 2204 1839 2383 2575] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2367 1946   75 2480 1741 1892 1788 1024] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2032 1970 1701  908  408 1451  948 1368] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 205  947 2044  914 2578 2571 1546 1912] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2422 1381  735   50 2206 1404 2281 1948] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2420 2317 1564  685  452 2441 1731 2211] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1188  425 1899  813 2119  991 2392 2391] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 981  219 2606 2354  821 2312 1959 1129] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 125  431 1278 2342 2476 1150  476 2052] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 374 1489 2385 1070 2531  815   57 2097] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 829 1673 1317 2121  758  323 1761 2658] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 901 1019 2370 1371 1463 1740  256  276] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1938 1497  421 2268 1259 1284  300  556] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 513 1780 2172 1478 2634 1753  590 1205] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2192  478 2565  985  695  329 1247 2313] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 169  120  731  679 1915 2492 1250  571] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2178  445  246  412 1352 2142  971   31] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2584 1204 1038  835 1253 1277 1514 1873] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1471 1976 2650  715 2640  488 1465  526] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1607 2274 1817 2094 1734 1177  372 1397] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2335 2486 1914 1146 1445 1684  989  970] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1249 1694 1235 1635 2350  885 2396  518] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1203 1469  523 2028 2444 2146 2202  966] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1201 2138 2593  490 2435 2072 1503 1565] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1222 1746  222 1499 2653  843 2466  831] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1785 2262  776  101 1132 2042 1566 1217] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1917  692  596 2038 2411 2043 1363 1268] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2529 1424 1860 2311 2520  453 1852  522] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1693 1549  924  461  505 1882 2546  183] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1453  179  514 1425 1211  705  318 1579] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1979 1154 1194 1353 1922   30 1544 1380] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1798 1358 1517 2110 1729  220 1773 1879] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 845 2381 2270 2515  942 1155   28 2001] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1716 2460 1907  848 1438  999  434 1982] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2401   73  830 2170   17  426 1139  658] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2644 2169 1553 1639 2459 2586  533   63] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2378  366 1011 2064 1826 1786 2261  958] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 664 1658 1327  487 2449 2092 1715  410] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2655  404  828 2278 2522 1360 2648  838] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2595  611   93 1389 2062 2031 1587 1728] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1661 1269 1831  173 1653  271 1669 2049] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 386 1046 1629 2292 2009  273  507 1192] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1659  628 2347  707 1283  141  581  441] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1078  229 1671 1974 1316 1087 1351 2163] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 599  313 1872  172 1771 2384  572  496] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1329 2068 1128 1652 2063  586 1496  844] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 128 2069 1937  783 2576 2220 1834 1218] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2099  146  399 1719 1925  770  806  857] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1667 1066 1009  521 1936   80 1051 2418] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 416 1765  667 1732 2334   98 1563 1083] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2155 1738 2622 2591 2184 1466  974 2253] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2641 2613 1781 2282 2006   29 2526 2019] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1627 2152 1089 1951  801 1998  254 2481] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1141 2185 2193  977  211  462 1455  532] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 343 1063 2395   25 1640 1523 2470 1181] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1492  825 2279 2600 1853  804 1324 1522] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2131 1949 2413  950  540 2127 1487  655] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1485 1104 1245 2209 1909  363 2234  105] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1511  752 1958 1844 1346 1855  249  577] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 303 2632 1836 2635 1036  669  701   27] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2129  235 1082 1431  832  672 2623 1092] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 539  852 1348  820  287  113 2627 2426] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1242 1830  839  208  359  465 2252 1048] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1022 2323  638 2496  553 2004 1209  548] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 199 2603  466  657   89  504 1064 1789] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 889  103 1536 1145 2645  888  388 2463] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2553  652 2446 1142 1500 2079  435 1230] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [  56 2636  870  711  688 1170 2012 2140] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1832 1134 2238  177 1136 1383  660 1961] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [2136  459 2439   94 1656 2126 1610 2158] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1315 1448  753  283  805  258 1613 2241] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 836 1467 2447  643 2153 1053 2100  440] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1792  414  904  585 1229  382 1074  201] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1842  537 2020  544  759 1498 2587  381] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1057 1863 1534 2325  174   86 2194 1814] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [1678  340 1554 1919  367  646  550 2176] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 714 2562 2382 2271 1281  100 1176  963] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 352 2159 1933 1482  252  328  767 1347] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+Batch with idx [ 615 2374  923 1806  613 2295  135 2462] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 678.75 MiB already allocated; 2.38 MiB free; 255.00 KiB cached)
+===> Average AREA**2-loss on training set is 0.00000000
+===> Average AREA**2-loss on validation set is 0.00650472
+===> Average exact area on training set is 0.00000000
+===> Average exact area on validation set is 0.03949787
+===> Last best AREA**2-loss was 0.03916085 in epoch 4
+
+ => Start train set for EPOCH 6
+Batch with idx [2447 2624  678 1679 2400 2370 1970  224] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1847 1981 2438 1740 1188 2434 1620  847] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1168  662 1136 1360 2365 2489 1081  534] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 431  922 1628  561 2342 1348 2607 2445] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2591  906 2203 2463  289 1244  622  465] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 384 2044 2163 1988 1563 2099   71 2462] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1904 1675 2035  583  184  783  531  597] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 970 1486 1427  556  220 1435  165  157] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 453  378  359  591  635 1258  626 2328] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1446 2506 2555 2635  765  719 2138 1505] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1157  317 1800 2309 2621 1845  969  563] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1273 2234 1174  278  108 1863  729 1943] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2558  652 1116 1169  338 1826 2322 1808] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1320  256 2453 1046 2528  269 1071 2253] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2186 1470 2431  854 1205 1328 2096  482] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1025  623  932 1548 2028 1557 1969 2638] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1502 2492 2401  761 2377 1678 2002  813] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 376 2225 1010 1155 1498  113 1905  517] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1047  425 1028  954 1914  166  251 1757] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 835 1928 1503 1729  506    1 2614  432] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2178  903 1694 2586 1255 1082 2515   12] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 891  304 1693  301 1657 1927 1699  103] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1250 1394 2325 1019  654 2208  111  139] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 143 1899  443 2281 1261  437 2440  316] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1309  638  959 1485 2415  309 2444  712] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2652  490 1661 2012 2634  785 1821   76] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 669 1554 1512 1977  394 1256 1398 2582] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1343 2459  312  839  819   59 1158  668] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1265 1079 1373  461  391 1783  554  620] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 942  832 2049  565  880 2588 2493 1965] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2248  870 2034  641  611 1889 1400 2499] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 693 1712  933  201 1910 1697 2274  584] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 960  439 2220 1648  148  367 2023  755] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2102 2006  445  690 2245  797  975 2502] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1422 1430 1022 1408 1621 2258 1492 1671] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1953 2238 2165 2097 1752 1357 1184 2480] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2251 1208 2207 1362 1987 1336 2570 1730] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2374 1660  223 2326 1772   61 1877  971] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 864  825  435  526 2327 2603 1395  456] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [  63 2347 2107 2437  800 1257  740 1617] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1882  735  630 1974 1834  467  192 1171] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 158 1029  421 1194 1665 1132  914  943] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 881  200  349  382 1154 2287 1259 1402] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 455  179  463  803 2396 2025  330 1382] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2252 2020 1947 2047  986  477 2191 2268] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 811 2353 1781 1921 1827 2383 2263 1559] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1353 1066 1565 1414  663 1566 2312  858] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 661  865  162  569  438 1832  141 1482] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2103 2193 1960 2205 2294 1739 1050 2082] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 592 1711  193  636  985  643 1077  276] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1149 2092 2130 1276  924 1239 2055 2118] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1053  449  450  790 1598 1955 1823 1241] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2124 1814  188  614 2153 2606  334 1210] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1742 1141 1490 1645  154  221 2141  368] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2315  977 2291  710  167 1961 1209 2303] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1381 1613 1719 1355  130 1378 1507 1604] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2619 1462  670  404  197 1024  496 1702] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2460  351  775 1532  770  718 1151   20] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1541 2663 1920 2650  901  323   51  216] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1695 1475 1544 1917  878 1078  930 2534] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2134 2464 2529  838 1005 2272 2361 2641] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2644 1285 1809  899 2255 1582  422 2355] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 380   16 2508 2139  137 1996 2182 1737] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [  72  172 1147  820  879  259 1056 1249] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1330 1796 1030  416 1245 1311  204 1517] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1782  801 2451 2018 1793 1271   97  564] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 252 1937 1518 1839   25 2363 2636 1607] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2391 2323 1816 1525 2388 1471 2001 2206] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 500 2136 1332 2188 2406 2522    4 2195] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1653 1007  707 2495   62 1612 1390 1865] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 373  520 1553 1223  104 1765 1070 2395] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 339 2505 1327  280 2317 2585  911 1286] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 466 1017  469 1959   23  874  774  462] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1193 1226  343 1907  689 2646  684 2135] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2011 1950 1150  454 1143 2170 2261 1769] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2573  823  235 2458  493  572  967  105] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1804  994 1424 1058  486  418 1976  672] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1278 2504 1165 1570 1768 1777 2561 2518] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 814 2491 2427 2627  776  468 1167  427] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1083 1984   82 1846 2563 2575 1190  972] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2194  504 2228 2338 1949 1666 1788  639] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2167 2467 1366 1840  646 1203   22 1178] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 778 1677 2250  750 1980  299 2177  888] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1230  379  996 1037  804  332 1033  589] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 648  557 1585 2605  904  586 2030  582] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2300 2514 1858 1015  769 2119 2126 2465] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1716 1039 1500  558  539 1684 1791 1177] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2254  448 1913  660 2293 1334 1187  599] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1013  571 1886  118 1263 1072 1789 1848] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1337 2340  716  320 1228   88    0  128] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 812   50  407  153 1856 2311  400 1564] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 175 1736 1975 1067  983 2137 1011 2659] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1310 1207 1179 2486 1911  546 1347 2343] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 715  828 2378 1998  258  834 1464   79] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1102 1932   94 1703  389  840 1629 2344] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2121  231 1958 1925   81 1992  473  842] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2500  402  705  160  386 1912  676 2535] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1971  744  481  822  275  659  423  559] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1853 2270  698  604 2221  808  219  345] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2159 2233 2408 1594 1004  532  100  232] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1663  562 2288  236  347 2278 1064 1440] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [  15 1779  513 1268 2478  464  186 2235] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 183 2468 1453 1822 1243 2063  107  921] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [  67 1407 2070  965 1625  375  326  248] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2494 2394  341 1240 1487 1060 2032 1713] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 632  596 2262 2335  540 1297 2324 1137] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1086  508  767 2314  792 1883 2503 1997] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 826 2078 1356  352 1887 2629 1090  209] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2073  694 1638 2426 1162 1063 2540  318] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1431 1784   70   96  890 1504 2481 1352] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 685 2411  892  602   33 1195 1583  549] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 793   17 2613 2196 2488 2264 2385  471] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1514  875 2536  528 1919  992  101  566] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1480 2420 1495 2112 1476 1170  974 1284] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 749 1359 2144 1802 1358 1200  756  938] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1774 2110   11 1780  436 1842  590  762] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2485  779 1325  852 1478 1401  802 2423] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2442  947 2397  417 2509 2630  982 2067] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 702  805  941  607  237 2510  598  387] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2152  699  871 1095  771  923  799  640] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 298 1416  934 1045 1117 2015 2022  239] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2308 2072 2111 2402   24 1685 2169 1438] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2332  381 2452  608 1114 2348 2574 2334] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2653 2276 1043 1014  230  612  649 1215] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1642 1323 2217  266  245 1404 1282  173] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 895  818 2602 2201 1753 2306 1792 2043] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1596  651 1496  817 1635 1009 1445 2469] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 354  925   98 2127 1994 2172  261 2086] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2052 1088 1637 1036  268  297 1575 2176] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1108 2628 2538  958  315 1191  408 2457] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [ 472  751  452  329 1175  319 1991 1775] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [2187  484 1262  457  371  910  238 1731] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1312  198 2068 1999  265 2599  533 1547] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1121 2184   31 1038 1413 2557 2609 2249] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1545  202 1873  837  365 1304  692 2368] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1862  909 2357  927 2142  908  613  578] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1103   54 1097 1319 1062  939 1520  410] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1963  691 2230 1463  303 1105 1467  494] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1113 2371 1611  885 1709  229  951 1746] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
+Batch with idx [1247 1119 1059 2318 2116  853 1186 1922] skipped due to singular matrix
+CUDA out of memory. Tried to allocate 16.00 MiB (GPU 0; 10.91 GiB total capacity; 614.75 MiB already allocated; 8.38 MiB free; 258.00 KiB cached)
