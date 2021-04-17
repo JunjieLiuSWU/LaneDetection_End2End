@@ -4,4 +4,5 @@
 * You should refer to the [original repository](https://github.com/wvangansbeke/LaneDetection_End2End) to configure the environment first.  
 * You can change the input images in test.py, and run run_test.sh to get a result image.  
 * If you want to test a folder of images, you can use test_floder.py in run_test.sh  
-![new_output](https://user-images.githubusercontent.com/50912231/115118140-7c2ae080-9fd4-11eb-95ba-eccfdb5199ed.png)
+![new_output1](https://user-images.githubusercontent.com/50912231/115118207-b2686000-9fd4-11eb-8d20-d64abff47d72.png)
+
